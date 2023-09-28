@@ -1,0 +1,101 @@
+[
+        {
+        "course_id": "36377",
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": " 3 ",
+        "session": "04",
+        "classroom": "EE505"
+    },
+    {
+        "course_id": "36330",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 3 ",
+        "session": "02",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "36330",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 3 ",
+        "session": "03",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "36330",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 3 ",
+        "session": "04",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "363A7",
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": " 3 ",
+        "session": "09",
+        "classroom": "S305"
+    },
+    {
+        "course_id": "363A7",
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": " 3 ",
+        "session": "40",
+        "classroom": "S305"
+    },
+    {
+        "course_id": "363A7",
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": " 3 ",
+        "session": "50",
+        "classroom": "S305"
+    },
+    {
+        "course_id": "363A5",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 5 ",
+        "session": "02",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "363A5",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 5 ",
+        "session": "03",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "363A5",
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": " 5 ",
+        "session": "04",
+        "classroom": "S302"
+    },
+    {
+        "course_id": "36266",
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": " 5 ",
+        "session": "02",
+        "classroom": "S301"
+    }
+]

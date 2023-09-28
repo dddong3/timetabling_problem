@@ -1,0 +1,2301 @@
+[
+  {
+    "school_type": "大學部",
+    "course_id": "00121",
+    "course_name": "體育壹",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["05", "06"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李炯煌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["體育"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["20"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王豐緒",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S106"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "1",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "01108",
+    "course_name": "應用英文一",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["06"]
+      },
+      {
+        "weekday": " 4 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "黃逸綸",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["網修", "CC305"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "網路教學",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": "本課程採翻轉教學方式授課。1. 正課：同學透過Moodle平台，先行收看學習內容。2. 實習課(面授)：依照課表排定時間及教室，每週固定到班與教師互動並接受輔導及評量。"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36101",
+    "course_name": "程式設計一",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["05", "06", "07"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "彭心怡",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36106",
+    "course_name": "數位邏輯設計",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "趙和昌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S108"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36107",
+    "course_name": "計算機概論",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "蘇民揚",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S106"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36111",
+    "course_name": "數位邏輯實驗",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "陳游利",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["AA203"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 1,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36113",
+    "course_name": "微積分一",
+    "class_id": "36101",
+    "class_name": "資工一甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["01"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "洪永常",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "王玟婷",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["EE311", "S106"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00121",
+    "course_name": "體育壹",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["01", "02"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "羅玉枝",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["體育"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00911",
+    "course_name": "人工智慧概論",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["05", "06"]
+      },
+      {
+        "weekday": " 1 ",
+        "sector": ["07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 2,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "趙和昌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["AA603"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "1",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "01108",
+    "course_name": "應用英文一",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["06"]
+      },
+      {
+        "weekday": " 4 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "林怡君",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["網修", "CC403"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "網路教學",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": "本課程採翻轉教學方式授課。1. 正課：同學透過Moodle平台，先行收看學習內容。2. 實習課(面授)：依照課表排定時間及教室，每週固定到班與教師互動並接受輔導及評量。"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36101",
+    "course_name": "程式設計一",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["05", "06", "07"]
+      },
+      {
+        "weekday": " 5 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "何祖鳳",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "彭心怡",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["AA603", "S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36107",
+    "course_name": "計算機概論",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "蘇民揚",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S106"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36113",
+    "course_name": "微積分一",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["02", "03", "04"]
+      },
+      {
+        "weekday": " 4 ",
+        "sector": ["02"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "洪永常",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "王玟婷",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S108", "S213"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36239",
+    "course_name": "電子電路學",
+    "class_id": "36102",
+    "class_name": "資工一乙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李開暉",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00121",
+    "course_name": "體育壹",
+    "class_id": "36103",
+    "class_name": "資工一丙",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["05", "06"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李炯煌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["體育"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "國際專修部",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36103",
+    "class_name": "資工一丙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["20"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "歐占和",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["CC506"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "國際專修部",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36103",
+    "class_name": "資工一丙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "1",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "01108",
+    "course_name": "應用英文一",
+    "class_id": "36103",
+    "class_name": "資工一丙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["06"]
+      },
+      {
+        "weekday": " 4 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "黃逸綸",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["網修", "CC305"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "網路教學",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": "本課程採翻轉教學方式授課。1. 正課：同學透過Moodle平台，先行收看學習內容。2. 實習課(面授)：依照課表排定時間及教室，每週固定到班與教師互動並接受輔導及評"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36X01",
+    "course_name": "微積分",
+    "class_id": "36103",
+    "class_name": "資工一丙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "胡學穎",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["EE702"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "國際專修部",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "45101",
+    "course_name": "論文研討一",
+    "class_id": "36141",
+    "class_name": "資工系研一",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李開暉",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S401"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 2,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "45145",
+    "course_name": "演算法分析與設計",
+    "class_id": "36141",
+    "class_name": "資工系研一",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["09", "40", "50"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "2",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "01208",
+    "course_name": "應用英文三",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["08"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "林佳琪",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["網修", "CC307"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "網路教學",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": "本課程採翻轉教學方式授課。1. 正課：同學透過Moodle平台，先行收看學習內容。2. 實習課(面授)：依照課表排定時間及教室，每週固定到班與教師互動並接受輔導及評"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36105",
+    "course_name": "電腦網路導論",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐武孝",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["EE504"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36202",
+    "course_name": "資料結構",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐熊健",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36339",
+    "course_name": "物件導向技術",
+    "class_id": "36201",
+    "class_name": "資工二甲",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S107"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "2",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "01208",
+    "course_name": "應用英文三",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["08"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "陳幼璇",
+        "teacher_type": "sub"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["網修", "CC305"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "網路教學",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": "本課程採翻轉教學方式授課。1. 正課：同學透過Moodle平台，先行收看學習內容。2. 實習課(面授)：依照課表排定時間及教室，每週固定到班與教師互動並接受輔導及評"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36105",
+    "course_name": "電腦網路導論",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐武孝",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36202",
+    "course_name": "資料結構",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐熊健",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S107"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36339",
+    "course_name": "物件導向技術",
+    "class_id": "36202",
+    "class_name": "資工二乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "45201",
+    "course_name": "論文研討三",
+    "class_id": "36241",
+    "class_name": "資工系研二",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "歐占和",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S4031"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 2,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36248",
+    "course_name": "Python程式設計",
+    "class_id": "36251",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "蘇民揚",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S301"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "363A2",
+    "course_name": "程式設計與認證一",
+    "class_id": "36252",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["09", "40", "50"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36379",
+    "course_name": "機密分享概論",
+    "class_id": "36253",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["07", "08", "09"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐熊健",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36301",
+    "class_name": "資工三甲",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["20"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李御璽",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["AA602"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36301",
+    "class_name": "資工三甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "3",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36201",
+    "course_name": "機率與統計",
+    "class_id": "36301",
+    "class_name": "資工三甲",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王豐緒",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S515"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36301",
+    "course_name": "作業系統",
+    "class_id": "36301",
+    "class_name": "資工三甲",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王培元",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["AA602"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36304",
+    "course_name": "資料庫系統",
+    "class_id": "36301",
+    "class_name": "資工三甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["07", "08", "09"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "顏秀珍",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S107"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36302",
+    "class_name": "資工三乙",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "顏秀珍",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S107"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36302",
+    "class_name": "資工三乙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "3",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36201",
+    "course_name": "機率與統計",
+    "class_id": "36302",
+    "class_name": "資工三乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王豐緒",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36301",
+    "course_name": "作業系統",
+    "class_id": "36302",
+    "class_name": "資工三乙",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["02", "03", "04"]
+      },
+      {
+        "weekday": " 4 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王立天",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "王培元",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36304",
+    "course_name": "資料庫系統",
+    "class_id": "36302",
+    "class_name": "資工三乙",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "顏秀珍",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S107"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36373",
+    "course_name": "互動視訊遊戲製作",
+    "class_id": "36351",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "歐占和",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S513"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36324",
+    "course_name": "R",
+    "class_id": "36352",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 1 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李御璽",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36434",
+    "course_name": "網路規劃與管理",
+    "class_id": "36353",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐武孝",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36245",
+    "course_name": "人工智慧",
+    "class_id": "36354",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王豐緒",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S513"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36338",
+    "course_name": "軟體工程導論",
+    "class_id": "36355",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "何祖鳳",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["EE505"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36365",
+    "course_name": "UNIX作業系統",
+    "class_id": "36356",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "魏廉臻",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S513"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36358",
+    "course_name": "FPGA/CPLD",
+    "class_id": "36357",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["09", "40", "50"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "趙和昌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36329",
+    "course_name": "創新創意專案開發",
+    "class_id": "36358",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["40", "50", "60"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["40", "50", "60"]
+      },
+      {
+        "weekday": " 2 ",
+        "sector": ["40", "50", "60"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "林怡先",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "陳柏年",
+        "teacher_type": "main"
+      },
+      {
+        "teacher_name": "李開暉",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S102"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36377",
+    "course_name": "資訊安全導論",
+    "class_id": "36359",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "蘇民揚",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["EE505"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36330",
+    "course_name": "物聯網技術",
+    "class_id": "36360",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "歐占和",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "363A7",
+    "course_name": "影像處理實務",
+    "class_id": "36361",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["09", "40", "50"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "趙和昌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S305"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "363A5",
+    "course_name": "Unity3D",
+    "class_id": "36362",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "歐占和",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36266",
+    "course_name": "互動電子技術專題",
+    "class_id": "36363",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "黃世育",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S301"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36401",
+    "class_name": "資工四甲",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["20"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐熊健",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["S213"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36401",
+    "class_name": "資工四甲",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "4",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36401",
+    "course_name": "專題研究二",
+    "class_id": "36401",
+    "class_name": "資工四甲",
+    "time_list": [
+      {
+        "weekday": " 0 ",
+        "sector": ["40", "50", "60"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["專研"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00997",
+    "course_name": "班會",
+    "class_id": "36402",
+    "class_name": "資工四乙",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["20"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "徐武孝",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["EE504"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "00999",
+    "course_name": "週會",
+    "class_id": "36402",
+    "class_name": "資工四乙",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["05"]
+      }
+    ],
+    "teacher_list": [],
+    "course_grade": "4",
+    "classroom": [""],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 0,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "全學年",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36401",
+    "course_name": "專題研究二",
+    "class_id": "36402",
+    "class_name": "資工四乙",
+    "time_list": [
+      {
+        "weekday": " 0 ",
+        "sector": ["40", "50", "60"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "共同指導",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["專研"],
+    "campus": ["桃園"],
+    "course_type": "必修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36467",
+    "course_name": "企業實習",
+    "class_id": "36451",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "楊健貴",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["S515"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "上學期",
+    "comments": "僅提供予參與產業學院計畫的同學選課"
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36464",
+    "course_name": "開源探勘實務應用",
+    "class_id": "36452",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["40", "50", "60"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李御璽",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "3",
+    "classroom": ["S301"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36422",
+    "course_name": "開源作業系統操作實務",
+    "class_id": "36453",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["09", "40", "50"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "魏廉臻",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "2",
+    "classroom": ["S5131"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36420",
+    "course_name": "網頁設計與實務應用",
+    "class_id": "36454",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["40", "50", "60"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "4",
+    "classroom": ["S302"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": true,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "36568",
+    "course_name": "高等文本資料探勘",
+    "class_id": "36551",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "李御璽",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S311"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "45131",
+    "course_name": "機器學習與資料探勘",
+    "class_id": "36552",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "顏秀珍",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S401"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "45162",
+    "course_name": "人工智慧",
+    "class_id": "36553",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 4 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "王豐緒",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S513"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "碩士班",
+    "course_id": "36545",
+    "course_name": "數位影像處理",
+    "class_id": "36554",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 2 ",
+        "sector": ["05", "06", "07"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "趙和昌",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["S401"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36X02",
+    "course_name": "互動電子實務",
+    "class_id": "36651",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 3 ",
+        "sector": ["02", "03", "04"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "羅慶同",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["CC702"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "國際專修部",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  },
+  {
+    "school_type": "大學部",
+    "course_id": "36X03",
+    "course_name": "基礎程式設計",
+    "class_id": "36652",
+    "class_name": "",
+    "time_list": [
+      {
+        "weekday": " 5 ",
+        "sector": ["06", "07", "08"]
+      }
+    ],
+    "teacher_list": [
+      {
+        "teacher_name": "謝育平",
+        "teacher_type": "main"
+      }
+    ],
+    "course_grade": "1",
+    "classroom": ["CC702"],
+    "campus": ["桃園"],
+    "course_type": "選修",
+    "units": 3,
+    "special_type": "國際專修部",
+    "isgraduate": false,
+    "semester": "上學期",
+    "comments": ""
+  }
+]
