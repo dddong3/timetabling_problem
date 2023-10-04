@@ -13,7 +13,7 @@ def run_ga(all_ga: list[int]) -> None:
 
 def main() -> None:
 
-    loops = 1
+    loops = 10
 
     with Manager() as manager:
         all_ga = manager.list()

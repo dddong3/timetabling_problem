@@ -1,27 +1,5 @@
 [
     {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36101",
-        "teacher_list": [
-            "李炯煌"
-        ],
-        "week": " 1 ",
-        "session": "05",
-        "classroom": "體育"
-    },
-    {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36101",
-        "teacher_list": [
-            "李炯煌"
-        ],
-        "week": " 1 ",
-        "session": "06",
-        "classroom": "體育"
-    },
-    {
         "course_id": "00997",
         "course_name": "班會",
         "class_id": "36101",
@@ -255,28 +233,6 @@
         "classroom": "EE311"
     },
     {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36102",
-        "teacher_list": [
-            "羅玉枝"
-        ],
-        "week": " 5 ",
-        "session": "01",
-        "classroom": "體育"
-    },
-    {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36102",
-        "teacher_list": [
-            "羅玉枝"
-        ],
-        "week": " 5 ",
-        "session": "02",
-        "classroom": "體育"
-    },
-    {
         "course_id": "00911",
         "course_name": "人工智慧概論",
         "class_id": "36102",
@@ -498,28 +454,6 @@
         "week": " 3 ",
         "session": "04",
         "classroom": "S102"
-    },
-    {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36103",
-        "teacher_list": [
-            "李炯煌"
-        ],
-        "week": " 1 ",
-        "session": "05",
-        "classroom": "體育"
-    },
-    {
-        "course_id": "00121",
-        "course_name": "體育壹",
-        "class_id": "36103",
-        "teacher_list": [
-            "李炯煌"
-        ],
-        "week": " 1 ",
-        "session": "06",
-        "classroom": "體育"
     },
     {
         "course_id": "00997",
