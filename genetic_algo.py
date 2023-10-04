@@ -54,7 +54,8 @@ class GeniticAlgoithm:
         fileName = f'chromosome_{self.best_fitness}_{time.strftime("%m%d%H%M", time.localtime())}.json'
         json.dump(self.best_chromosome, open(fileName, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
 
-    def get_json(self: object, fileName: str) -> dict:
+    @staticmethod
+    def get_json(fileName: str) -> dict:
         return json.load(open(fileName, 'r', encoding='utf-8'))
 
     def generate_chromosome(self: object) -> list[list[dict]]:
@@ -181,6 +182,6 @@ class GeniticAlgoithm:
                 fitness += 30 * course_week_total if session_start_25 else 0
             else:
                 # penalty rule #1
-                fitness -= 1000 * course_week_total
+                fitness -= 10000 * course_week_total
 
         return fitness

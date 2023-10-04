@@ -7,7 +7,7 @@ from multiprocessing import Process, Manager
 def run_ga(all_ga: list[int]) -> None:
     FILE_NAME = 'test_gene_washed.json'
     # FILE_NAME = 'little_gene.json'
-    ga = GeniticAlgoithm(FILE_NAME, 'class.json', live=1000, popu=100)
+    ga = GeniticAlgoithm(FILE_NAME, 'class.json', live=100, popu=1000)
     all_ga.append(ga)
 
 def main() -> None:
