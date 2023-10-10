@@ -13,14 +13,16 @@ def run_ga(all_ga: list[int]) -> None:
 
 def main() -> None:
 
-    loops = 10
-
-    with Manager() as manager:
-        all_ga = manager.list()
-        threads = [Process(target=run_ga, args=(all_ga,)) for _ in range(loops)]
-        [_.start() for _ in threads]
-        [_.join() for _ in tqdm.tqdm(threads)]
-        all_ga = list(all_ga)
+    loops = 1
+    all_ga = []
+    for _ in tqdm.tqdm(range(loops)):
+        run_ga(all_ga)
+    # with Manager() as manager:
+    #     all_ga = manager.list()
+    #     threads = [Process(target=run_ga, args=(all_ga,)) for _ in range(loops)]
+    #     [_.start() for _ in threads]
+    #     [_.join() for _ in tqdm.tqdm(threads)]
+    #     all_ga = list(all_ga)
 
     all_fitness = [_.best_fitness for _ in all_ga]
     all_fitness, all_ga = zip(*sorted(zip(all_fitness, all_ga), reverse=True))

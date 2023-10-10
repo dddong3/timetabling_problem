@@ -1,6 +1,7 @@
 import time
 import json
 import random
+from typing import Any
 from fitness import Fitness
 
 class GeniticAlgoithm:
@@ -44,18 +45,19 @@ class GeniticAlgoithm:
         self.update_best_fitness()
         for _ in range(self.livecycle):
             self.cross_over()
-            self.update_best_fitness()
             self.mutation()
-            self.update_best_fitness()
             self.selection()
+            self.update_best_fitness()
 
     def update_best_fitness(self: object) -> None:
         self.best_fitness = max(self.fitness)
         self.best_chromosome = self.chromosome[self.fitness.index(self.best_fitness)]
     
     def cross_over(self: object) -> None:
-        self.chromosome.extend([self.generate_chromosome() for _ in range(self.population_size)])
-        self.fitness.extend([self.compute_fitness(chromosome) for chromosome in self.chromosome[self.population_size:]])
+        child = [self.generate_chromosome() for _ in range(self.population_size)]
+        child_fitness = [self.compute_fitness(chromosome) for chromosome in child]
+        self.chromosome.extend(child)
+        self.fitness.extend(child_fitness)
 
     def mutation(self: object) -> None:
         pass
