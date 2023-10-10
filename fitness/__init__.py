@@ -42,11 +42,14 @@ class Fitness():
             fitness[0][6] = self.penalty.rule_6(teacher_class_week[teacher])
 
         for course in course_week:
-            fitness += self.evaluate_course_week(course_week[course])
+            # print(course_week)
+            lst = self.evaluate_course_week(course_week[course])
+            fitness[0][1] = lst[0]
+            fitness[1][1] = lst[1]
 
         return fitness
 
-    def evaluate_course_week(self, course_week: dict) -> int:
+    def evaluate_course_week(self, course_week: dict) -> list[int]:
         course_week_total = 0
         is_3_session = False
         session_start_25 = False
@@ -60,5 +63,6 @@ class Fitness():
                 is_3_session = sum(session_index) - 3 * min_index == 3
                 session_start_25 |= min_index == self.session_list.index('02') or min_index == self.session_list.index('05')
 
-        return self.bonus.rule_1(course_week_total, is_3_session, session_start_25) + \
-               self.penalty.rule_1(course_week_total, is_3_session)
+        #[penalty, bonus]
+        fitness_list = [self.penalty.rule_1(course_week_total, is_3_session), self.bonus.rule_1(course_week_total, is_3_session, session_start_25)]
+        return fitness_list

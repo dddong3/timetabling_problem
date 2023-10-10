@@ -23,6 +23,7 @@ class GeniticAlgoithm:
 
         self.chromosome = None
         self.fitness = None
+        self.fitness_rcd = None
         self.compute_fitness = Fitness()
         self.best_fitness = None
         self.best_chromosome = None
@@ -41,15 +42,18 @@ class GeniticAlgoithm:
 
     def run(self: object) -> None:
         self.chromosome = [self.generate_chromosome() for _ in range(self.population_size)]
-        self.fitness = [self.compute_fitness(chromosome) for chromosome in self.chromosome]
+        self.fitness_rcd = [self.compute_fitness(chromosome) for chromosome in self.chromosome]
+        self.fitness = [sum(sum(d.values()) for d in sublist) for sublist in self.fitness_rcd]
         self.update_best_fitness()
         for _ in range(self.livecycle):
             self.cross_over()
             self.mutation()
             self.selection()
             self.update_best_fitness()
+        print(self.fitness_rcd[self.fitness.index(self.best_fitness)])
 
     def update_best_fitness(self: object) -> None:
+        self.fitness = [sum(sum(d.values()) for d in sublist) for sublist in self.fitness_rcd]
         self.best_fitness = max(self.fitness)
         self.best_chromosome = self.chromosome[self.fitness.index(self.best_fitness)]
     
@@ -57,16 +61,18 @@ class GeniticAlgoithm:
         child = [self.generate_chromosome() for _ in range(self.population_size)]
         child_fitness = [self.compute_fitness(chromosome) for chromosome in child]
         self.chromosome.extend(child)
-        self.fitness.extend(child_fitness)
+        self.fitness_rcd.extend(child_fitness)
 
     def mutation(self: object) -> None:
         pass
 
     def selection(self: object) -> None:
+        # print(self.fitness)
         self.chromosome = [chromosome for _, chromosome in sorted(zip(self.fitness, self.chromosome), reverse=True)]
         self.fitness = sorted(self.fitness, reverse=True)
         self.chromosome = self.chromosome[:self.population_size]
         self.fitness = self.fitness[:self.population_size]
+        self.fitness_rcd = self.fitness_rcd[:self.population_size]
 
     def output_chromosome(self: object) -> None:
         fileName = f'chromosome_{self.best_fitness}_{time.strftime("%m%d.%H%M", time.localtime())}.json'
