@@ -40,10 +40,13 @@ class GeniticAlgoithm:
     def __lt__(self: object, other: object) -> bool:
         return self.best_fitness < other.best_fitness
 
+    def get_fitness(self: object) -> list[int]:
+        return [sum(subdict['penalty'].values()) + sum(subdict['bonus'].values())  for subdict in self.fitness_rcd]
+
     def run(self: object) -> None:
         self.chromosome = [self.generate_chromosome() for _ in range(self.population_size)]
         self.fitness_rcd = [self.compute_fitness(chromosome) for chromosome in self.chromosome]
-        self.fitness = [sum(subdict['penalty'][rule] + subdict['bonus'][rule] for rule in subdict['penalty']) for subdict in self.fitness_rcd]
+        self.fitness = self.get_fitness()
         self.update_best_fitness()
         for _ in range(self.livecycle):
             self.cross_over()
@@ -53,7 +56,7 @@ class GeniticAlgoithm:
         print(self.fitness_rcd[self.fitness.index(self.best_fitness)])
 
     def update_best_fitness(self: object) -> None:
-        self.fitness = [sum(subdict['penalty'][rule] + subdict['bonus'][rule] for rule in subdict['penalty']) for subdict in self.fitness_rcd]
+        self.fitness = self.get_fitness()
         self.best_fitness = max(self.fitness)
         self.best_chromosome = self.chromosome[self.fitness.index(self.best_fitness)]
     
