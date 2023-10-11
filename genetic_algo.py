@@ -75,8 +75,14 @@ class GeniticAlgoithm:
         self.fitness_rcd = self.fitness_rcd[:self.population_size]
 
     def output_chromosome(self: object) -> None:
+        chromosome = []
+        for course in self.best_chromosome:
+            for i in range(course['session_length']):
+                course['session'] = self.session_list[(self.session_list.index(course['session']) + (1 if i > 0 else 0)) % len(self.session_list)]
+                chromosome.append(course.copy())
+
         fileName = f'chromosome_{self.best_fitness}_{time.strftime("%m%d%H%M", time.localtime())}.json'
-        json.dump(self.best_chromosome, open(fileName, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
+        json.dump(chromosome, open(fileName, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
 
     @staticmethod
     def get_json(fileName: str) -> dict:
