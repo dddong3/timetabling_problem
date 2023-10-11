@@ -25,6 +25,7 @@ def wash_gene() -> None:
             'course_name': course['course_name'],
             'course_type': course['course_type'],
             'class_id': course['class_id'],
+            'session_length': None,
             'teacher_list': None,
             'week': None,
             'session': None,
@@ -36,15 +37,18 @@ def wash_gene() -> None:
         sector_dict = {}
         for time, teacher in zip(course['time_list'], course['teacher_list']):
             # print(time, teacher)
+            session_count = 0
             for sector in time['sector']:
-                if sector_dict.get(sector) == None:
-                    sector_dict[sector] = current_course_template.copy()
-                    sector_dict[sector]['teacher_list'] = []
-                    sector_dict[sector]['week'] = time['weekday']
-                    sector_dict[sector]['session'] = sector
-                    sector_dict[sector]['classroom'] = course.get('classroom', [None])[0]
+                session_count += 1
+            if sector_dict.get(sector) == None:
+                sector_dict[sector] = current_course_template.copy()
+                sector_dict[sector]['teacher_list'] = []
+                sector_dict[sector]['week'] = time['weekday']
+                sector_dict[sector]['session'] = sector
+                sector_dict[sector]['session_length'] = session_count
+                sector_dict[sector]['classroom'] = course.get('classroom', [None])[0]
 
-                sector_dict[sector]['teacher_list'].append(teacher['teacher_name'])
+            sector_dict[sector]['teacher_list'].append(teacher['teacher_name'])
 
         gene.extend(list(sector_dict.values()))
 
