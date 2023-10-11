@@ -2,6 +2,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "王豐緒"
@@ -13,6 +14,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "梅姥釃"
@@ -24,6 +26,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "共同指導"
@@ -35,6 +38,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "黃逸綸"
@@ -46,6 +50,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "謝育平"
@@ -57,6 +62,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "謝育平",
@@ -69,6 +75,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "謝育平",
@@ -81,6 +88,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "彭心怡"
@@ -92,6 +100,7 @@
     {
         "course_id": "36106",
         "course_name": "數位邏輯設計",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "趙和昌"
@@ -103,6 +112,7 @@
     {
         "course_id": "36106",
         "course_name": "數位邏輯設計",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "趙和昌"
@@ -114,6 +124,7 @@
     {
         "course_id": "36106",
         "course_name": "數位邏輯設計",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "趙和昌"
@@ -125,6 +136,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "蘇民揚"
@@ -136,6 +148,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "蘇民揚"
@@ -147,6 +160,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "蘇民揚"
@@ -158,6 +172,7 @@
     {
         "course_id": "36111",
         "course_name": "數位邏輯實驗",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "陳游利"
@@ -169,6 +184,7 @@
     {
         "course_id": "36111",
         "course_name": "數位邏輯實驗",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "陳游利"
@@ -180,6 +196,7 @@
     {
         "course_id": "36111",
         "course_name": "數位邏輯實驗",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "陳游利"
@@ -191,6 +208,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "洪永常"
@@ -202,6 +220,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "洪永常"
@@ -213,6 +232,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "洪永常"
@@ -224,6 +244,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36101",
         "teacher_list": [
             "王玟婷"
@@ -235,6 +256,7 @@
     {
         "course_id": "00911",
         "course_name": "人工智慧概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "黃世育"
@@ -246,6 +268,7 @@
     {
         "course_id": "00911",
         "course_name": "人工智慧概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "黃世育"
@@ -257,6 +280,7 @@
     {
         "course_id": "00911",
         "course_name": "人工智慧概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "黃世育"
@@ -268,6 +292,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "趙和昌"
@@ -279,6 +304,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "梅姥釃"
@@ -290,6 +316,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "共同指導"
@@ -301,6 +328,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "林怡君"
@@ -312,6 +340,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "何祖鳳"
@@ -323,6 +352,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "何祖鳳",
@@ -335,6 +365,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "何祖鳳",
@@ -347,6 +378,7 @@
     {
         "course_id": "36101",
         "course_name": "程式設計一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "彭心怡"
@@ -358,6 +390,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "蘇民揚"
@@ -369,6 +402,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "蘇民揚"
@@ -380,6 +414,7 @@
     {
         "course_id": "36107",
         "course_name": "計算機概論",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "蘇民揚"
@@ -391,6 +426,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "洪永常",
@@ -403,6 +439,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "洪永常"
@@ -414,6 +451,7 @@
     {
         "course_id": "36113",
         "course_name": "微積分一",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "洪永常"
@@ -425,6 +463,7 @@
     {
         "course_id": "36239",
         "course_name": "電子電路學",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "李開暉"
@@ -436,6 +475,7 @@
     {
         "course_id": "36239",
         "course_name": "電子電路學",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "李開暉"
@@ -447,6 +487,7 @@
     {
         "course_id": "36239",
         "course_name": "電子電路學",
+        "course_type": "必修",
         "class_id": "36102",
         "teacher_list": [
             "李開暉"
@@ -458,6 +499,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "歐占和"
@@ -469,6 +511,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "梅姥釃"
@@ -480,6 +523,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "共同指導"
@@ -491,6 +535,7 @@
     {
         "course_id": "01108",
         "course_name": "應用英文一",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "黃逸綸"
@@ -502,6 +547,7 @@
     {
         "course_id": "36X01",
         "course_name": "微積分",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "胡學穎"
@@ -513,6 +559,7 @@
     {
         "course_id": "36X01",
         "course_name": "微積分",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "胡學穎"
@@ -524,6 +571,7 @@
     {
         "course_id": "36X01",
         "course_name": "微積分",
+        "course_type": "必修",
         "class_id": "36103",
         "teacher_list": [
             "胡學穎"
@@ -535,6 +583,7 @@
     {
         "course_id": "45101",
         "course_name": "論文研討一",
+        "course_type": "必修",
         "class_id": "36141",
         "teacher_list": [
             "李開暉"
@@ -546,6 +595,7 @@
     {
         "course_id": "45101",
         "course_name": "論文研討一",
+        "course_type": "必修",
         "class_id": "36141",
         "teacher_list": [
             "李開暉"
@@ -557,6 +607,7 @@
     {
         "course_id": "45145",
         "course_name": "演算法分析與設計",
+        "course_type": "必修",
         "class_id": "36141",
         "teacher_list": [
             "謝育平"
@@ -568,6 +619,7 @@
     {
         "course_id": "45145",
         "course_name": "演算法分析與設計",
+        "course_type": "必修",
         "class_id": "36141",
         "teacher_list": [
             "謝育平"
@@ -579,6 +631,7 @@
     {
         "course_id": "45145",
         "course_name": "演算法分析與設計",
+        "course_type": "必修",
         "class_id": "36141",
         "teacher_list": [
             "謝育平"
@@ -590,6 +643,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "謝育平"
@@ -601,6 +655,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "梅姥釃"
@@ -612,6 +667,7 @@
     {
         "course_id": "01208",
         "course_name": "應用英文三",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "共同指導"
@@ -623,6 +679,7 @@
     {
         "course_id": "01208",
         "course_name": "應用英文三",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "林佳琪"
@@ -634,6 +691,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐武孝"
@@ -645,6 +703,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐武孝"
@@ -656,6 +715,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐武孝"
@@ -667,6 +727,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐熊健"
@@ -678,6 +739,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐熊健"
@@ -689,6 +751,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "徐熊健"
@@ -700,6 +763,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "黃世育"
@@ -711,6 +775,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "黃世育"
@@ -722,6 +787,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36201",
         "teacher_list": [
             "黃世育"
@@ -733,6 +799,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "黃世育"
@@ -744,6 +811,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "梅姥釃"
@@ -755,6 +823,7 @@
     {
         "course_id": "01208",
         "course_name": "應用英文三",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "共同指導"
@@ -766,6 +835,7 @@
     {
         "course_id": "01208",
         "course_name": "應用英文三",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "陳幼璇"
@@ -777,6 +847,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐武孝"
@@ -788,6 +859,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐武孝"
@@ -799,6 +871,7 @@
     {
         "course_id": "36105",
         "course_name": "電腦網路導論",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐武孝"
@@ -810,6 +883,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐熊健"
@@ -821,6 +895,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐熊健"
@@ -832,6 +907,7 @@
     {
         "course_id": "36202",
         "course_name": "資料結構",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "徐熊健"
@@ -843,6 +919,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "黃世育"
@@ -854,6 +931,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "黃世育"
@@ -865,6 +943,7 @@
     {
         "course_id": "36339",
         "course_name": "物件導向技術",
+        "course_type": "必修",
         "class_id": "36202",
         "teacher_list": [
             "黃世育"
@@ -876,6 +955,7 @@
     {
         "course_id": "45201",
         "course_name": "論文研討三",
+        "course_type": "必修",
         "class_id": "36241",
         "teacher_list": [
             "歐占和"
@@ -887,6 +967,7 @@
     {
         "course_id": "45201",
         "course_name": "論文研討三",
+        "course_type": "必修",
         "class_id": "36241",
         "teacher_list": [
             "歐占和"
@@ -898,6 +979,7 @@
     {
         "course_id": "36248",
         "course_name": "Python程式設計",
+        "course_type": "選修",
         "class_id": "36251",
         "teacher_list": [
             "蘇民揚"
@@ -909,6 +991,7 @@
     {
         "course_id": "36248",
         "course_name": "Python程式設計",
+        "course_type": "選修",
         "class_id": "36251",
         "teacher_list": [
             "蘇民揚"
@@ -920,6 +1003,7 @@
     {
         "course_id": "36248",
         "course_name": "Python程式設計",
+        "course_type": "選修",
         "class_id": "36251",
         "teacher_list": [
             "蘇民揚"
@@ -931,6 +1015,7 @@
     {
         "course_id": "363A2",
         "course_name": "程式設計與認證一",
+        "course_type": "選修",
         "class_id": "36252",
         "teacher_list": [
             "謝育平"
@@ -942,6 +1027,7 @@
     {
         "course_id": "363A2",
         "course_name": "程式設計與認證一",
+        "course_type": "選修",
         "class_id": "36252",
         "teacher_list": [
             "謝育平"
@@ -953,6 +1039,7 @@
     {
         "course_id": "363A2",
         "course_name": "程式設計與認證一",
+        "course_type": "選修",
         "class_id": "36252",
         "teacher_list": [
             "謝育平"
@@ -964,6 +1051,7 @@
     {
         "course_id": "36379",
         "course_name": "機密分享概論",
+        "course_type": "選修",
         "class_id": "36253",
         "teacher_list": [
             "徐熊健"
@@ -975,6 +1063,7 @@
     {
         "course_id": "36379",
         "course_name": "機密分享概論",
+        "course_type": "選修",
         "class_id": "36253",
         "teacher_list": [
             "徐熊健"
@@ -986,6 +1075,7 @@
     {
         "course_id": "36379",
         "course_name": "機密分享概論",
+        "course_type": "選修",
         "class_id": "36253",
         "teacher_list": [
             "徐熊健"
@@ -997,6 +1087,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "李御璽"
@@ -1008,6 +1099,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "梅姥釃"
@@ -1019,6 +1111,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王豐緒"
@@ -1030,6 +1123,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王豐緒"
@@ -1041,6 +1135,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王豐緒"
@@ -1052,6 +1147,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王培元"
@@ -1063,6 +1159,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王培元"
@@ -1074,6 +1171,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "王培元"
@@ -1085,6 +1183,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "顏秀珍"
@@ -1096,6 +1195,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "顏秀珍"
@@ -1107,6 +1207,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36301",
         "teacher_list": [
             "顏秀珍"
@@ -1118,6 +1219,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "顏秀珍"
@@ -1129,6 +1231,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "梅姥釃"
@@ -1140,6 +1243,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王豐緒"
@@ -1151,6 +1255,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王豐緒"
@@ -1162,6 +1267,7 @@
     {
         "course_id": "36201",
         "course_name": "機率與統計",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王豐緒"
@@ -1173,6 +1279,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王立天",
@@ -1185,6 +1292,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王立天",
@@ -1197,6 +1305,7 @@
     {
         "course_id": "36301",
         "course_name": "作業系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "王立天",
@@ -1209,6 +1318,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "顏秀珍"
@@ -1220,6 +1330,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "顏秀珍"
@@ -1231,6 +1342,7 @@
     {
         "course_id": "36304",
         "course_name": "資料庫系統",
+        "course_type": "必修",
         "class_id": "36302",
         "teacher_list": [
             "顏秀珍"
@@ -1242,6 +1354,7 @@
     {
         "course_id": "36373",
         "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
         "class_id": "36351",
         "teacher_list": [
             "歐占和"
@@ -1253,6 +1366,7 @@
     {
         "course_id": "36373",
         "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
         "class_id": "36351",
         "teacher_list": [
             "歐占和"
@@ -1264,6 +1378,7 @@
     {
         "course_id": "36373",
         "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
         "class_id": "36351",
         "teacher_list": [
             "歐占和"
@@ -1275,6 +1390,7 @@
     {
         "course_id": "36324",
         "course_name": "R",
+        "course_type": "選修",
         "class_id": "36352",
         "teacher_list": [
             "李御璽"
@@ -1286,6 +1402,7 @@
     {
         "course_id": "36324",
         "course_name": "R",
+        "course_type": "選修",
         "class_id": "36352",
         "teacher_list": [
             "李御璽"
@@ -1297,6 +1414,7 @@
     {
         "course_id": "36324",
         "course_name": "R",
+        "course_type": "選修",
         "class_id": "36352",
         "teacher_list": [
             "李御璽"
@@ -1308,6 +1426,7 @@
     {
         "course_id": "36434",
         "course_name": "網路規劃與管理",
+        "course_type": "選修",
         "class_id": "36353",
         "teacher_list": [
             "徐武孝"
@@ -1319,6 +1438,7 @@
     {
         "course_id": "36434",
         "course_name": "網路規劃與管理",
+        "course_type": "選修",
         "class_id": "36353",
         "teacher_list": [
             "徐武孝"
@@ -1330,6 +1450,7 @@
     {
         "course_id": "36434",
         "course_name": "網路規劃與管理",
+        "course_type": "選修",
         "class_id": "36353",
         "teacher_list": [
             "徐武孝"
@@ -1341,6 +1462,7 @@
     {
         "course_id": "36245",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36354",
         "teacher_list": [
             "王豐緒"
@@ -1352,6 +1474,7 @@
     {
         "course_id": "36245",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36354",
         "teacher_list": [
             "王豐緒"
@@ -1363,6 +1486,7 @@
     {
         "course_id": "36245",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36354",
         "teacher_list": [
             "王豐緒"
@@ -1374,6 +1498,7 @@
     {
         "course_id": "36338",
         "course_name": "軟體工程導論",
+        "course_type": "選修",
         "class_id": "36355",
         "teacher_list": [
             "何祖鳳"
@@ -1385,6 +1510,7 @@
     {
         "course_id": "36338",
         "course_name": "軟體工程導論",
+        "course_type": "選修",
         "class_id": "36355",
         "teacher_list": [
             "何祖鳳"
@@ -1396,6 +1522,7 @@
     {
         "course_id": "36338",
         "course_name": "軟體工程導論",
+        "course_type": "選修",
         "class_id": "36355",
         "teacher_list": [
             "何祖鳳"
@@ -1407,6 +1534,7 @@
     {
         "course_id": "36365",
         "course_name": "UNIX作業系統",
+        "course_type": "選修",
         "class_id": "36356",
         "teacher_list": [
             "魏廉臻"
@@ -1418,6 +1546,7 @@
     {
         "course_id": "36365",
         "course_name": "UNIX作業系統",
+        "course_type": "選修",
         "class_id": "36356",
         "teacher_list": [
             "魏廉臻"
@@ -1429,6 +1558,7 @@
     {
         "course_id": "36365",
         "course_name": "UNIX作業系統",
+        "course_type": "選修",
         "class_id": "36356",
         "teacher_list": [
             "魏廉臻"
@@ -1440,6 +1570,7 @@
     {
         "course_id": "36358",
         "course_name": "FPGA/CPLD",
+        "course_type": "選修",
         "class_id": "36357",
         "teacher_list": [
             "趙和昌"
@@ -1451,6 +1582,7 @@
     {
         "course_id": "36358",
         "course_name": "FPGA/CPLD",
+        "course_type": "選修",
         "class_id": "36357",
         "teacher_list": [
             "趙和昌"
@@ -1462,6 +1594,7 @@
     {
         "course_id": "36358",
         "course_name": "FPGA/CPLD",
+        "course_type": "選修",
         "class_id": "36357",
         "teacher_list": [
             "趙和昌"
@@ -1473,6 +1606,7 @@
     {
         "course_id": "36329",
         "course_name": "創新創意專案開發",
+        "course_type": "選修",
         "class_id": "36358",
         "teacher_list": [
             "林怡先",
@@ -1486,6 +1620,7 @@
     {
         "course_id": "36329",
         "course_name": "創新創意專案開發",
+        "course_type": "選修",
         "class_id": "36358",
         "teacher_list": [
             "林怡先",
@@ -1499,6 +1634,7 @@
     {
         "course_id": "36329",
         "course_name": "創新創意專案開發",
+        "course_type": "選修",
         "class_id": "36358",
         "teacher_list": [
             "林怡先",
@@ -1512,6 +1648,7 @@
     {
         "course_id": "36377",
         "course_name": "資訊安全導論",
+        "course_type": "選修",
         "class_id": "36359",
         "teacher_list": [
             "蘇民揚"
@@ -1523,6 +1660,7 @@
     {
         "course_id": "36377",
         "course_name": "資訊安全導論",
+        "course_type": "選修",
         "class_id": "36359",
         "teacher_list": [
             "蘇民揚"
@@ -1534,6 +1672,7 @@
     {
         "course_id": "36377",
         "course_name": "資訊安全導論",
+        "course_type": "選修",
         "class_id": "36359",
         "teacher_list": [
             "蘇民揚"
@@ -1545,6 +1684,7 @@
     {
         "course_id": "36330",
         "course_name": "物聯網技術",
+        "course_type": "選修",
         "class_id": "36360",
         "teacher_list": [
             "歐占和"
@@ -1556,6 +1696,7 @@
     {
         "course_id": "36330",
         "course_name": "物聯網技術",
+        "course_type": "選修",
         "class_id": "36360",
         "teacher_list": [
             "歐占和"
@@ -1567,6 +1708,7 @@
     {
         "course_id": "36330",
         "course_name": "物聯網技術",
+        "course_type": "選修",
         "class_id": "36360",
         "teacher_list": [
             "歐占和"
@@ -1578,6 +1720,7 @@
     {
         "course_id": "363A7",
         "course_name": "影像處理實務",
+        "course_type": "選修",
         "class_id": "36361",
         "teacher_list": [
             "趙和昌"
@@ -1589,6 +1732,7 @@
     {
         "course_id": "363A7",
         "course_name": "影像處理實務",
+        "course_type": "選修",
         "class_id": "36361",
         "teacher_list": [
             "趙和昌"
@@ -1600,6 +1744,7 @@
     {
         "course_id": "363A7",
         "course_name": "影像處理實務",
+        "course_type": "選修",
         "class_id": "36361",
         "teacher_list": [
             "趙和昌"
@@ -1611,6 +1756,7 @@
     {
         "course_id": "363A5",
         "course_name": "Unity3D",
+        "course_type": "選修",
         "class_id": "36362",
         "teacher_list": [
             "歐占和"
@@ -1622,6 +1768,7 @@
     {
         "course_id": "363A5",
         "course_name": "Unity3D",
+        "course_type": "選修",
         "class_id": "36362",
         "teacher_list": [
             "歐占和"
@@ -1633,6 +1780,7 @@
     {
         "course_id": "363A5",
         "course_name": "Unity3D",
+        "course_type": "選修",
         "class_id": "36362",
         "teacher_list": [
             "歐占和"
@@ -1644,6 +1792,7 @@
     {
         "course_id": "36266",
         "course_name": "互動電子技術專題",
+        "course_type": "選修",
         "class_id": "36363",
         "teacher_list": [
             "黃世育"
@@ -1655,6 +1804,7 @@
     {
         "course_id": "36266",
         "course_name": "互動電子技術專題",
+        "course_type": "選修",
         "class_id": "36363",
         "teacher_list": [
             "黃世育"
@@ -1666,6 +1816,7 @@
     {
         "course_id": "36266",
         "course_name": "互動電子技術專題",
+        "course_type": "選修",
         "class_id": "36363",
         "teacher_list": [
             "黃世育"
@@ -1677,6 +1828,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36401",
         "teacher_list": [
             "徐熊健"
@@ -1688,6 +1840,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36401",
         "teacher_list": [
             "梅姥釃"
@@ -1699,6 +1852,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36401",
         "teacher_list": [
             "共同指導"
@@ -1710,6 +1864,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36401",
         "teacher_list": [
             "共同指導"
@@ -1721,6 +1876,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36401",
         "teacher_list": [
             "共同指導"
@@ -1732,6 +1888,7 @@
     {
         "course_id": "00997",
         "course_name": "班會",
+        "course_type": "必修",
         "class_id": "36402",
         "teacher_list": [
             "徐武孝"
@@ -1743,6 +1900,7 @@
     {
         "course_id": "00999",
         "course_name": "週會",
+        "course_type": "必修",
         "class_id": "36402",
         "teacher_list": [
             "梅姥釃"
@@ -1754,6 +1912,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36402",
         "teacher_list": [
             "共同指導"
@@ -1765,6 +1924,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36402",
         "teacher_list": [
             "共同指導"
@@ -1776,6 +1936,7 @@
     {
         "course_id": "36401",
         "course_name": "專題研究二",
+        "course_type": "必修",
         "class_id": "36402",
         "teacher_list": [
             "共同指導"
@@ -1787,6 +1948,7 @@
     {
         "course_id": "36467",
         "course_name": "企業實習",
+        "course_type": "選修",
         "class_id": "36451",
         "teacher_list": [
             "楊健貴"
@@ -1798,6 +1960,7 @@
     {
         "course_id": "36467",
         "course_name": "企業實習",
+        "course_type": "選修",
         "class_id": "36451",
         "teacher_list": [
             "楊健貴"
@@ -1809,6 +1972,7 @@
     {
         "course_id": "36467",
         "course_name": "企業實習",
+        "course_type": "選修",
         "class_id": "36451",
         "teacher_list": [
             "楊健貴"
@@ -1820,6 +1984,7 @@
     {
         "course_id": "36464",
         "course_name": "開源探勘實務應用",
+        "course_type": "選修",
         "class_id": "36452",
         "teacher_list": [
             "李御璽"
@@ -1831,6 +1996,7 @@
     {
         "course_id": "36464",
         "course_name": "開源探勘實務應用",
+        "course_type": "選修",
         "class_id": "36452",
         "teacher_list": [
             "李御璽"
@@ -1842,6 +2008,7 @@
     {
         "course_id": "36464",
         "course_name": "開源探勘實務應用",
+        "course_type": "選修",
         "class_id": "36452",
         "teacher_list": [
             "李御璽"
@@ -1853,6 +2020,7 @@
     {
         "course_id": "36422",
         "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
         "class_id": "36453",
         "teacher_list": [
             "魏廉臻"
@@ -1864,6 +2032,7 @@
     {
         "course_id": "36422",
         "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
         "class_id": "36453",
         "teacher_list": [
             "魏廉臻"
@@ -1875,6 +2044,7 @@
     {
         "course_id": "36422",
         "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
         "class_id": "36453",
         "teacher_list": [
             "魏廉臻"
@@ -1886,6 +2056,7 @@
     {
         "course_id": "36420",
         "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
         "class_id": "36454",
         "teacher_list": [
             "謝育平"
@@ -1897,6 +2068,7 @@
     {
         "course_id": "36420",
         "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
         "class_id": "36454",
         "teacher_list": [
             "謝育平"
@@ -1908,6 +2080,7 @@
     {
         "course_id": "36420",
         "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
         "class_id": "36454",
         "teacher_list": [
             "謝育平"
@@ -1919,6 +2092,7 @@
     {
         "course_id": "36568",
         "course_name": "高等文本資料探勘",
+        "course_type": "選修",
         "class_id": "36551",
         "teacher_list": [
             "李御璽"
@@ -1930,6 +2104,7 @@
     {
         "course_id": "36568",
         "course_name": "高等文本資料探勘",
+        "course_type": "選修",
         "class_id": "36551",
         "teacher_list": [
             "李御璽"
@@ -1941,6 +2116,7 @@
     {
         "course_id": "36568",
         "course_name": "高等文本資料探勘",
+        "course_type": "選修",
         "class_id": "36551",
         "teacher_list": [
             "李御璽"
@@ -1952,6 +2128,7 @@
     {
         "course_id": "45131",
         "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
         "class_id": "36552",
         "teacher_list": [
             "顏秀珍"
@@ -1963,6 +2140,7 @@
     {
         "course_id": "45131",
         "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
         "class_id": "36552",
         "teacher_list": [
             "顏秀珍"
@@ -1974,6 +2152,7 @@
     {
         "course_id": "45131",
         "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
         "class_id": "36552",
         "teacher_list": [
             "顏秀珍"
@@ -1985,6 +2164,7 @@
     {
         "course_id": "45162",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36553",
         "teacher_list": [
             "王豐緒"
@@ -1996,6 +2176,7 @@
     {
         "course_id": "45162",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36553",
         "teacher_list": [
             "王豐緒"
@@ -2007,6 +2188,7 @@
     {
         "course_id": "45162",
         "course_name": "人工智慧",
+        "course_type": "選修",
         "class_id": "36553",
         "teacher_list": [
             "王豐緒"
@@ -2018,6 +2200,7 @@
     {
         "course_id": "36545",
         "course_name": "數位影像處理",
+        "course_type": "選修",
         "class_id": "36554",
         "teacher_list": [
             "趙和昌"
@@ -2029,6 +2212,7 @@
     {
         "course_id": "36545",
         "course_name": "數位影像處理",
+        "course_type": "選修",
         "class_id": "36554",
         "teacher_list": [
             "趙和昌"
@@ -2040,6 +2224,7 @@
     {
         "course_id": "36545",
         "course_name": "數位影像處理",
+        "course_type": "選修",
         "class_id": "36554",
         "teacher_list": [
             "趙和昌"
@@ -2051,6 +2236,7 @@
     {
         "course_id": "36X02",
         "course_name": "互動電子實務",
+        "course_type": "選修",
         "class_id": "36651",
         "teacher_list": [
             "羅慶同"
@@ -2062,6 +2248,7 @@
     {
         "course_id": "36X02",
         "course_name": "互動電子實務",
+        "course_type": "選修",
         "class_id": "36651",
         "teacher_list": [
             "羅慶同"
@@ -2073,6 +2260,7 @@
     {
         "course_id": "36X02",
         "course_name": "互動電子實務",
+        "course_type": "選修",
         "class_id": "36651",
         "teacher_list": [
             "羅慶同"
@@ -2084,6 +2272,7 @@
     {
         "course_id": "36X03",
         "course_name": "基礎程式設計",
+        "course_type": "選修",
         "class_id": "36652",
         "teacher_list": [
             "謝育平"
@@ -2095,6 +2284,7 @@
     {
         "course_id": "36X03",
         "course_name": "基礎程式設計",
+        "course_type": "選修",
         "class_id": "36652",
         "teacher_list": [
             "謝育平"
@@ -2106,6 +2296,7 @@
     {
         "course_id": "36X03",
         "course_name": "基礎程式設計",
+        "course_type": "選修",
         "class_id": "36652",
         "teacher_list": [
             "謝育平"

@@ -23,6 +23,7 @@ def wash_gene() -> None:
         current_course_template = {
             'course_id': course['course_id'],
             'course_name': course['course_name'],
+            'course_type': course['course_type'],
             'class_id': course['class_id'],
             'teacher_list': None,
             'week': None,
