@@ -31,6 +31,8 @@ def wash_gene() -> None:
             'classroom': None
         }
 
+        current_course_template['course_key'] = current_course_template['course_id'] + current_course_template['class_id']
+
         sector_dict = {}
         for time, teacher in zip(course['time_list'], course['teacher_list']):
             # print(time, teacher)
