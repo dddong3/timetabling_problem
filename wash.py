@@ -44,7 +44,7 @@ def wash_gene() -> None:
                 sector_dict[sector] = current_course_template.copy()
                 sector_dict[sector]['teacher_list'] = []
                 sector_dict[sector]['week'] = time['weekday']
-                sector_dict[sector]['session'] = sector
+                sector_dict[sector]['session'] = time['sector'][0]
                 sector_dict[sector]['session_length'] = session_count
                 sector_dict[sector]['classroom'] = course.get('classroom', [None])[0]
 
