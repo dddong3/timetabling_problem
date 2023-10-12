@@ -1,3 +1,5 @@
 Pipfile
 Pipfile.lock
 .DS_Store
+*.key
+*.pem
