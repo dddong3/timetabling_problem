@@ -4,15 +4,38 @@ class Penalty:
     def __init__(self, session_list: list[str]):
         self.session_list = session_list
 
-    def rule_1(self, course_week_total: int, is_3_session: bool) -> int:
-        return -100 * course_week_total if not is_3_session else 0
+    def exceed_time(self, chromosome: list[object]) -> int:
+        fitness = 0
+        for course in chromosome:
+            session_idx = self.session_list.index(course['session'])
+            if session_idx + course['session_length'] > len(self.session_list):
+                fitness -= 100
+        return fitness
 
-    def rule_2(self, gene: Dict) -> int:
-        return -30 if self.session_list.index(gene['session']) > self.session_list.index('07') else 0
+    def over_07(self,chromosome: list[object]) -> int:
+        fitness = 0
+        for course in chromosome:
+            if self.session_list.index(course['session']) > self.session_list.index('07'):
+                fitness -= 100
+        return fitness
 
-    def rule_3(self, teacher_week: Dict) -> int:
-        overtime = any(sum(teacher_week[week].values()) > 6 for week in teacher_week)
-        return -100 if overtime else 0
+    def working_overtime(self, chromosome: list[object]) -> int:
+        fitness = 0
+        weekly_teaching_hours = dict()
+        for course in chromosome:
+            if course['week'] not in weekly_teaching_hours:
+                weekly_teaching_hours[course['week']] = dict()
+            for teacher in course['teacher_list']:
+                if teacher not in weekly_teaching_hours[course['week']]:
+                    weekly_teaching_hours[course['week']][teacher] = 0
+                weekly_teaching_hours[course['week']][teacher] += course['session_length']
+        
+        for week in weekly_teaching_hours:
+            for teacher in weekly_teaching_hours[week]:
+                if weekly_teaching_hours[week][teacher] > 6:
+                    fitness -= 100
+        return fitness
+
 
     def rule_4(self, gene: Dict) -> int:
         return -100 if gene['session'] == '20' else 0
