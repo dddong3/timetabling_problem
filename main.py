@@ -5,14 +5,12 @@ from multiprocessing import Process, Manager
 
 
 def run_ga(all_ga: list[int]) -> None:
-    FILE_NAME = 'test_gene_washed.json'
-    # FILE_NAME = 'little_gene.json'
-    GeniticAlgoithm.init(FILE_NAME, 'class.json', live=100, popu=100)
     ga = GeniticAlgoithm()
     all_ga.append(ga)
 
 def main() -> None:
-
+    FILE_NAME = 'test_gene_washed.json'
+    GeniticAlgoithm.init(FILE_NAME, 'class.json', live=100, popu=100)
     loops = 1
     all_ga = []
     for _ in tqdm.tqdm(range(loops)):
