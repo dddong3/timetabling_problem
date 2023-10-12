@@ -53,7 +53,7 @@ class GeniticAlgoithm:
             self.mutation()
             self.selection()
             self.update_best_fitness()
-        print(self.fitness_rcd[self.fitness.index(self.best_fitness)])
+        # print(self.fitness_rcd[self.fitness.index(self.best_fitness)])
 
     def update_best_fitness(self: object) -> None:
         self.fitness = self.get_fitness()
