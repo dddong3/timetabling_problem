@@ -10,7 +10,8 @@ def run_ga(all_ga: list[int]) -> None:
 
 def main() -> None:
     FILE_NAME = 'test_gene_washed.json'
-    GeniticAlgoithm.init(FILE_NAME, 'class.json', live=100, popu=100)
+    GeniticAlgoithm.init(FILE_NAME, 'class.json', live=100, popu=100, anchors=[
+    ])
     loops = 1
     all_ga = []
     for _ in tqdm.tqdm(range(loops)):

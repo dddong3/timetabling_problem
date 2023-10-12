@@ -1,3 +1,4 @@
+import re
 import time
 import json
 import random
@@ -30,12 +31,13 @@ class GeniticAlgoithm:
         self.run()
 
     @classmethod
-    def init(cls, courseFileName: str, classFileName: str, *, popu: int, live: int) -> None:
+    def init(cls, courseFileName: str, classFileName: str, *, popu: int, live: int, anchors: list[str]) -> None:
         cls.population_size = popu
         cls.livecycle = live
         cls.gene_list = GeniticAlgoithm.get_json(courseFileName)
         cls.class_detail = GeniticAlgoithm.get_json(classFileName)
         cls.class_list = list(cls.class_detail.keys())
+        cls.course_anchor_list = anchors
 
     def __lt__(self: object, other: object) -> bool:
         return self.best_fitness < other.best_fitness
@@ -91,7 +93,19 @@ class GeniticAlgoithm:
 
     def generate_chromosome(self: object) -> list[list[dict]]:
         chromosome = self.gene_list.copy()
+        try:
+            if self.course_anchor_list.index('*') != -1:
+                return chromosome
+        except ValueError:
+            pass
         for course in chromosome:
+            is_match = False
+            for anchor in self.course_anchor_list:
+                if re.match(anchor, course['course_key']):
+                    is_match = True
+                    break
+            if is_match:
+                continue
             course['week'] = random.randint(self.START_WEEK, self.END_WEEK)
             course['session'] = random.choice(self.session_list)
             course['classroom'] = random.choice(self.class_list)
