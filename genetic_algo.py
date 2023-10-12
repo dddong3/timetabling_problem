@@ -70,7 +70,6 @@ class GeniticAlgoithm:
         pass
 
     def selection(self: object) -> None:
-        # print(self.fitness)
         self.chromosome = [chromosome for _, chromosome in sorted(zip(self.fitness, self.chromosome), reverse=True)]
         self.fitness = sorted(self.fitness, reverse=True)
         self.chromosome = self.chromosome[:self.population_size]
@@ -83,7 +82,6 @@ class GeniticAlgoithm:
             for i in range(course['session_length']):
                 course['session'] = self.session_list[(self.session_list.index(course['session']) + (1 if i > 0 else 0)) % len(self.session_list)]
                 chromosome.append(course.copy())
-
         fileName = f'chromosome_{self.best_fitness}_{time.strftime("%m%d%H%M", time.localtime())}.json'
         json.dump(chromosome, open(fileName, 'w', encoding='utf-8'), ensure_ascii=False, indent=4)
 
@@ -92,7 +90,6 @@ class GeniticAlgoithm:
         return json.load(open(fileName, 'r', encoding='utf-8'))
 
     def generate_chromosome(self: object) -> list[list[dict]]:
-        
         chromosome = self.gene_list.copy()
         for course in chromosome:
             course['week'] = random.randint(self.START_WEEK, self.END_WEEK)
