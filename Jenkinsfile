@@ -27,11 +27,11 @@ pipeline {
                 echo "Pushing ${IMAGE_NAME}..."
 
                 withCredentials([
-                    usernamePassword(credentialsId: 'vultr_dong3registry',
+                    usernamePassword(credentialsId: '03b5e0b6-bfdc-46d7-bafc-a8b5bf8cec00',
                         usernameVariable: 'DOCKER_USER',
                         passwordVariable: 'DOCKER_PASS')
                 ]) {
-                    sh 'docker login ' + DOCKER_HOST + ' -u ' + DOCKER_USER + ' -p ' + DOCKER_PASS
+                    sh 'docker login https://sjc.vultrcr.com/dong3registry' + ' -u ' + DOCKER_USER + ' -p ' + DOCKER_PASS
                 }
             }
         }
