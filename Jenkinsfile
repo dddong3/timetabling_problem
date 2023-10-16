@@ -1,10 +1,17 @@
 pipeline {
     agent any
 
+    environment {
+        DOCKER_HOST = 'sjc.vultrcr.com/dong3registry'
+        DOCKER_USER = credentials('vultr_dong3registry')
+        IMAGE_NAME = DOCKER_HOST + '/gene:latest'
+    }
+
     stages {
         stage('Building Docker Image') {
             steps {
                 cleanWs()
+                sh 'docker logout'
                 checkout scm
 
                 echo "Building ${env.JOB_NAME}..."
@@ -14,10 +21,12 @@ pipeline {
                     file(credentialsId: '98cb51f5-281d-4fc0-a64c-05ab09e96346',
                         variable: 'SSL_PRIV_KEY'),
                 ]) {
-                    sh "docker build --build-arg SSL_PUB_KEY=${SSL_PUB_KEY} --build-arg SSL_PRIV_KEY=${SSL_PRIV_KEY} -t ${env.JOB_NAME} ."
+                    // sh "docker build -t ${IMAGE_NAME} ."
                 }
+                echo "Built ${IMAGE_NAME} successfully!"
 
-                echo "Built ${env.JOB_NAME} successfully!"
+                echo "Pushing ${IMAGE_NAME}..."
+                sh 'docker login -u ${DOCKER_USER_USR} -p ${DOCKER_USER_PSW}'
             }
         }
 
