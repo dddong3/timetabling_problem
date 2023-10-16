@@ -3,7 +3,6 @@ pipeline {
 
     environment {
         DOCKER_HOST = 'sjc.vultrcr.com/dong3registry'
-        DOCKER_USER = credentials('vultr_dong3registry')
         IMAGE_NAME = "${DOCKER_HOST}/gene:latest"
     }
 
@@ -26,7 +25,14 @@ pipeline {
                 echo "Built ${IMAGE_NAME} successfully!"
 
                 echo "Pushing ${IMAGE_NAME}..."
-                sh "docker login https://${DOCKER_HOST} -u ${DOCKER_USER_USR} -p ${DOCKER_USER_PSW}"
+
+                withCredentials([
+                    usernamePassword(credentialsId: 'vultr_dong3registry',
+                        usernameVariable: 'DOCKER_USER',
+                        passwordVariable: 'DOCKER_PASS')
+                ]) {
+                    sh 'docker login https://' + DOCKER_HOST + ' -u ' + DOCKER_USER + ' -p ' + DOCKER_PASS
+                }
             }
         }
 
