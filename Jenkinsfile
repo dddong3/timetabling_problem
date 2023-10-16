@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_HOST = 'sjc.vultrcr.com/dong3registry'
         DOCKER_USER = credentials('vultr_dong3registry')
-        IMAGE_NAME = DOCKER_HOST + '/gene:latest'
+        IMAGE_NAME = "${DOCKER_HOST}/gene:latest"
     }
 
     stages {
