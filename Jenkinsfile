@@ -28,10 +28,10 @@ pipeline {
 
                 withCredentials([
                     usernamePassword(credentialsId: '03b5e0b6-bfdc-46d7-bafc-a8b5bf8cec00',
-                        usernameVariable: 'DOCKER_USER')
-                        // passwordVariable: 'DOCKER_PASS')
+                        usernameVariable: 'DOCKER_USER',
+                        passwordVariable: 'DOCKER_PASS')
                 ]) {
-                    sh("docker login https://sjc.vultrcr.com/dong3registry -u ${DOCKER_USER}  -p B6ddsAy7YXx8TyFL3JrKLXL7GEfQmSGukrTG")
+                    sh 'docker login https://sjc.vultrcr.com/dong3registry -u $DOCKER_USER  -p $DOCKER_PASS'
                 }
             }
         }
