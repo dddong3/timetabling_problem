@@ -2,7 +2,14 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Checkout') {
+            steps {
+                echo 'Checking out code'
+                Checkout scm
+            }
+        }
+
+        stage('Build Docker Image') {
             steps {
                 echo 'Building...'
             }
