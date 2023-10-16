@@ -26,7 +26,7 @@ pipeline {
                 echo "Built ${IMAGE_NAME} successfully!"
 
                 echo "Pushing ${IMAGE_NAME}..."
-                sh 'docker login -u ${DOCKER_USER_USR} -p ${DOCKER_USER_PSW}'
+                sh "docker login https://${DOCKER_HOST} -u ${DOCKER_USER_USR} -p ${DOCKER_USER_PSW}"
             }
         }
 
