@@ -25,10 +25,7 @@ pipeline {
                 }
                 echo "Built ${IMAGE_NAME} successfully!"
 
-                echo "Pushing ${IMAGE_NAME}..."
-                sh 'docker tag test:latest sjc.vultrce.com/dong3registry/test:latest'
-                sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
-
+                // echo "Pushing ${IMAGE_NAME}..."
 
                 // withCredentials([
                 //     usernamePassword(credentialsId: '03b5e0b6-bfdc-46d7-bafc-a8b5bf8cec00',
@@ -37,6 +34,15 @@ pipeline {
                 // ]) {
                 //     sh 'docker login https://sjc.vultrcr.com/dong3registry --username $DOCKER_USER --password $DOCKER_PASS'
                 // }
+            }
+        }
+
+        stage('Pushing') {
+            steps {
+                echo 'Pushing...'
+                // sh "docker push ${IMAGE_NAME}"
+                sh 'docker tag test:latest sjc.vultrce.com/dong3registry/test:latest'
+                sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
             }
         }
 
