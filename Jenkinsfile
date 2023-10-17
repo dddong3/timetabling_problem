@@ -20,12 +20,15 @@ pipeline {
                     file(credentialsId: '98cb51f5-281d-4fc0-a64c-05ab09e96346',
                         variable: 'SSL_PRIV_KEY'),
                 ]) {
-                    // sh "docker build -t ${IMAGE_NAME} ."
-                    echo "docker build -t ${IMAGE_NAME} ."
+                    sh "docker build -t test:latest ."
+                    // echo "docker build -t ${IMAGE_NAME} ."
                 }
                 echo "Built ${IMAGE_NAME} successfully!"
 
                 echo "Pushing ${IMAGE_NAME}..."
+                sh 'docker tag test:latest sjc.vultrce.com/dong3registry/test:latest'
+                sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
+
 
                 withCredentials([
                     usernamePassword(credentialsId: '03b5e0b6-bfdc-46d7-bafc-a8b5bf8cec00',
