@@ -14,21 +14,19 @@ pipeline {
                 checkout scm
 
                 echo "Building ${env.JOB_NAME}..."
-                withDockerRegistry(credentialsId: 'vultr_dong3_registry', url: 'https://sjc.vultrcr.com/dong3registry') {
-                    withCredentials([
-                        file(credentialsId: '69cedf75-a5fe-4137-96a8-e7f6ac521635',
-                            variable: 'SSL_PUB_KEY'),
-                        file(credentialsId: '562d6d39-2a41-48aa-93be-8d264753fba7',
-                            variable: 'SSL_PRIV_KEY'),
-                    ]) {
-                        echo "building"
-                        // echo "docker build -t ${IMAGE_NAME} ."
-                        sh "docker build -t genee ."
-                    }
-                    sh 'docker tag genee:latest sjc.vultrce.com/dong3registry/test:latest'
-                    sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
-    // some block
+                withCredentials([
+                    file(credentialsId: '69cedf75-a5fe-4137-96a8-e7f6ac521635',
+                        variable: 'SSL_PUB_KEY'),
+                    file(credentialsId: '562d6d39-2a41-48aa-93be-8d264753fba7',
+                        variable: 'SSL_PRIV_KEY'),
+                ]) {
+                    echo "building"
+                    // echo "docker build -t ${IMAGE_NAME} ."
+                    sh "docker build -t genee ."
                 }
+                //sh 'docker tag genee:latest sjc.vultrce.com/dong3registry/test:latest'
+                //sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
+    // some block
                 echo "Built ${IMAGE_NAME} successfully!"
 
                 // echo "Pushing ${IMAGE_NAME}..."
