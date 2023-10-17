@@ -20,7 +20,7 @@ pipeline {
                     file(credentialsId: '562d6d39-2a41-48aa-93be-8d264753fba7',
                         variable: 'SSL_PRIV_KEY'),
                 ]) {
-                    sh "building"
+                    echo "building"
                     // echo "docker build -t ${IMAGE_NAME} ."
                 }
                 echo "Built ${IMAGE_NAME} successfully!"
