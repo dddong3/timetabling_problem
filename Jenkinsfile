@@ -10,7 +10,7 @@ pipeline {
         stage('Building Docker Image') {
             steps {
                 cleanWs()
-                sh 'docker logout'
+                // sh 'docker logout'
                 checkout scm
 
                 echo "Building ${env.JOB_NAME}..."
@@ -22,6 +22,7 @@ pipeline {
                 ]) {
                     echo "building"
                     // echo "docker build -t ${IMAGE_NAME} ."
+                    sh "docker build -t genee ."
                 }
                 echo "Built ${IMAGE_NAME} successfully!"
 
@@ -29,16 +30,16 @@ pipeline {
 
                 // echo 'Pushing...'
                 // // sh "docker push ${IMAGE_NAME}"
-                // sh 'docker tag test:latest sjc.vultrce.com/dong3registry/test:latest'
-                // sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
+                sh 'docker tag genee:latest sjc.vultrce.com/dong3registry/test:latest'
+                sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
 
-                withCredentials([
-                    usernamePassword(credentialsId: 'vultr_dong3_registry',
-                        usernameVariable: 'DOCKER_USER',
-                        passwordVariable: 'DOCKER_PASS')
-                ]) {
-                    sh 'docker login https://sjc.vultrcr.com:5000/dong3registry --username $DOCKER_USER --password $DOCKER_PASS'
-                }
+                // withCredentials([
+                //     usernamePassword(credentialsId: 'vultr_dong3_registry',
+                //         usernameVariable: 'DOCKER_USER',
+                //         passwordVariable: 'DOCKER_PASS')
+                // ]) {
+                //     sh 'docker login https://sjc.vultrcr.com:5000/dong3registry --username $DOCKER_USER --password $DOCKER_PASS'
+                // }
             }
         }
 
