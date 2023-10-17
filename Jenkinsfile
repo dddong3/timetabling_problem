@@ -37,7 +37,7 @@ pipeline {
                         usernameVariable: 'DOCKER_USER',
                         passwordVariable: 'DOCKER_PASS')
                 ]) {
-                    sh 'docker login https://sjc.vultrcr.com/dong3registry --username $DOCKER_USER --password $DOCKER_PASS'
+                    sh 'docker login https://sjc.vultrcr.com:5000/dong3registry --username $DOCKER_USER --password $DOCKER_PASS'
                 }
             }
         }
