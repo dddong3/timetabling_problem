@@ -33,8 +33,8 @@ pipeline {
 
                 // echo 'Pushing...'
                 // // sh "docker push ${IMAGE_NAME}"
-                sh 'docker tag genee:latest sjc.vultrce.com/dong3registry/test:latest'
-                sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
+                // sh 'docker tag genee:latest sjc.vultrce.com/dong3registry/test:latest'
+                // sh 'docker push sjc.vultrce.com/dong3registry/test:latest'
 
                 // withCredentials([
                 //     usernamePassword(credentialsId: 'vultr_dong3_registry',
