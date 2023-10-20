@@ -7,10 +7,8 @@ pipeline {
                 echo 'Preparing...'
                 echo 'Cleaning workspace...'
                 cleanWs()
-                script {
-                    sh 'docker-compose down || true'
-                    sh 'docker rmi gene:latest || true'
-                }
+                sh 'docker-compose down || true'
+                sh 'docker rmi gene:latest || true'
             }
         }
 
@@ -18,7 +16,6 @@ pipeline {
             steps {
                 echo 'Checking out SCM...'
                 checkout scm
-                echo 'Checked out SCM successfully!'
             }
         }
 
