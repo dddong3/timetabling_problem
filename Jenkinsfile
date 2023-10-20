@@ -30,8 +30,8 @@ pipeline {
                         variable: 'SSL_PRIV_KEY_PATH'),
                 ]) {
                     sh '''
-                    cp "$SSL_PUB_KEY_PATH" .
-                    cp "$SSL_PRIV_KEY_PATH" .
+                    cp "${SSL_PUB_KEY_PATH}" .
+                    cp "${SSL_PRIV_KEY_PATH}" .
                     '''
                     sh 'docker build -t gene:latest .'
                 }
