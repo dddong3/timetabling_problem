@@ -31,10 +31,10 @@ pipeline {
                     file(credentialsId: '98cb51f5-281d-4fc0-a64c-05ab09e96346',
                         variable: 'SSL_PRIV_KEY_PATH'),
                 ]) {
-                    sh "ls -alh"
                     sh "pwd"
                     sh "cp '${SSL_PUB_KEY_PATH}' ."
                     sh "cp '${SSL_PRIV_KEY_PATH}' ."
+                    sh "ls -alh"
                     sh 'docker build -t gene:latest .'
                 }
             }
