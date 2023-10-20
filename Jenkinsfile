@@ -7,7 +7,7 @@ pipeline {
                 echo 'Preparing...'
                 echo 'Cleaning workspace...'
                 cleanWs()
-                sh 'docker stop ${docker ps -a | grep gene:latest | awk \'{print $1}\}' || true'
+                sh 'docker stop ${docker ps -a | grep gene:latest | awk \'{print $1}\'} || true'
                 sh 'docker rmi gene:latest || true'
             }
         }
