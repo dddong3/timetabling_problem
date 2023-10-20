@@ -31,11 +31,7 @@ pipeline {
                     file(credentialsId: '98cb51f5-281d-4fc0-a64c-05ab09e96346',
                         variable: 'SSL_PRIV_KEY_PATH'),
                 ]) {
-                    script {
-                        docker.build("gene:latest",
-                            "--build-arg SSL_PUB_KEY_PATH=${SSL_PUB_KEY_PATH} --build-arg SSL_PRIV_KEY_PATH=${SSL_PRIV_KEY_PATH} ."
-                        )
-                    }
+                    sh 'docker build -t gene:latest .'
                 }
             }
         }
