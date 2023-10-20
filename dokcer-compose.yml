@@ -1,0 +1,10 @@
+version: '3'
+services:
+    gene:
+      image: gene:latest
+      networks:
+          - server-network
+
+networks:
+  server-network:
+    external: true
