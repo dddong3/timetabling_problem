@@ -20,6 +20,10 @@ COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 COPY src /app/src
 
+COPY data /app/data
+
+RUN mkdir -p /app/data/results
+
 CMD uvicorn server:app --host 127.0.0.1 --port 80
 
 EXPOSE 80
