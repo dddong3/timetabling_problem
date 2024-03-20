@@ -1,5 +1,5 @@
-Pipfile
-Pipfile.lock
 .DS_Store
 *.key
 *.pem
+.env
+data/results

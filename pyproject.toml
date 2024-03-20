@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "school-timetabling"
+version = "0.1.0"
+description = ""
+authors = ["dong3 <79492436+c4t0212@users.noreply.github.com>"]
+readme = "README.md"
+packages = [
+    {  include = "src", from = "." },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^24.3.0"
+isort = "^5.13.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

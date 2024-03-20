@@ -1,0 +1,56 @@
+pipeline {
+    agent {
+        label 'agent-1'
+    }
+
+    parameters {
+        string(name: 'DEPLOY_PORT', defaultValue: '9003', description: 'Port to deploy the application')
+    }
+
+    environment {
+        PROJECT_NAME = "school_timetabling"
+        CONTAINER_NAME =  "${PROJECT_NAME}_container"
+        IMAGE_NAME = "${PROJECT_NAME}:latest"
+        FULL_IMAGE_NAME = "${IMAGE_NAME}"
+    }
+
+    stages {
+        stage('Prepareing') {
+            steps {
+                script {
+                    configFileProvider([configFile(fileId: "building-config", variable: 'ENV')]) {
+                        def props = readProperties file: "$ENV"
+                        DOCKER_REGISTRY = props['DOCKER_REGISTRY']
+                        FULL_IMAGE_NAME = "${DOCKER_REGISTRY}/${IMAGE_NAME}"
+                    }
+                    echo "DOCKER_REGISTRY: ${DOCKER_REGISTRY}"
+                    echo "FULL_IMAGE_NAME: ${FULL_IMAGE_NAME}"
+                    sh "docker image prune -f"
+                }
+            }
+        }
+
+        stage('Building Docker Image') {
+            steps {
+                script {
+                    docker.withRegistry("https://${DOCKER_REGISTRY}", '810544e7-3de1-474d-a999-ee270128f993') {
+                        def image = docker.build("${env.FULL_IMAGE_NAME}", "-f Dockerfile .")
+                        image.push()
+                    }
+                }
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                script {
+                    sh "docker stop ${env.CONTAINER_NAME} || true"
+                    sh "docker rm ${env.CONTAINER_NAME} || true"
+                    docker.withRegistry("https://${DOCKER_REGISTRY}", '810544e7-3de1-474d-a999-ee270128f993') {
+                        docker.image("${env.FULL_IMAGE_NAME}").run("-p ${params.DEPLOY_PORT}:80 --name ${env.CONTAINER_NAME}")
+                    }
+                }
+            }
+        }
+    }
+}
