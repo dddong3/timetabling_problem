@@ -1,7 +1,25 @@
-FROM python:3.10-alpine
+FROM python:3.10-slim-bullseye as builder
 
 WORKDIR /app
-COPY . .
 
-RUN pip3 install fastapi uvicorn requests
-ENTRYPOINT uvicorn server:app --host 0.0.0.0 --port 443 --ssl-certfile cert1.pem --ssl-keyfile privkey1.pem
+COPY poetry.lock pyproject.toml /app/
+
+RUN pip install poetry 
+
+RUN poetry install --without dev --no-interaction --no-ansi
+
+FROM python:3.10-slim-bullseye as app
+
+ENV VIRTUAL_ENV=/app/.venv \
+    PATH="/app/.venv/bin:$PATH" \
+    PYTHONPATH=/app/src:$PYTHONPATH
+
+WORKDIR /app
+
+COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
+
+COPY src /app/src
+
+CMD uvicorn server:app --host 127.0.0.1 --port 80
+
+EXPOSE 80
