@@ -6,7 +6,11 @@ COPY poetry.lock pyproject.toml /app/
 
 RUN pip install poetry 
 
-RUN poetry install --without dev --no-interaction --no-ansi
+RUN poetry config virtualenvs.create true
+
+RUN poetry config virtualenvs.in-project true
+
+RUN poetry install --without dev --no-interaction --no-ansi 
 
 FROM python:3.10-slim-bullseye as app
 
@@ -24,6 +28,6 @@ COPY data /app/data
 
 RUN mkdir -p /app/data/results
 
-CMD uvicorn server:app --host 127.0.0.1 --port 80
+CMD ["uvicorn", "src.app:app", "--host", "127.0.0.1", "--port", "80"]
 
 EXPOSE 80

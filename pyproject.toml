@@ -12,6 +12,7 @@ packages = [
 python = "^3.10"
 black = "^24.3.0"
 isort = "^5.13.2"
+uvicorn = "^0.29.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"
