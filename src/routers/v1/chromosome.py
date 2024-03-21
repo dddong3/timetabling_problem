@@ -26,6 +26,6 @@ from fastapi import BackgroundTasks
 
 @router.post("/chromosome")
 async def post_chromosome(
-    background_tasks: BackgroundTasks, live: int = 20, popu: int = 20
+    background_tasks: BackgroundTasks, live: int = 20, popu: int = 20, anchor:int = 0
 ):
     return service.post_chromosome(background_tasks, live, popu)
