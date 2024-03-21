@@ -24,7 +24,7 @@ async def delete_chromosome_file(filename: str):
 from fastapi import BackgroundTasks
 
 
-@router.post("/chromosome")
+@router.post("/")
 async def post_chromosome(
     background_tasks: BackgroundTasks, live: int = 20, popu: int = 20, anchor:int = 0
 ):
