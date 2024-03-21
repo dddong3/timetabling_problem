@@ -6,7 +6,7 @@ from src.algorithm.services.curriculum import CurriculumService
 from ..genetic_algo.app import GeneticAlgoApp
 from ..genetic_algo.parameter import GeneticAlgoParameter
 from .chromosome import Chromosome
-from .crossover import PMXCrossover
+from .crossover import *
 from .mutate import *
 from .select import *
 
@@ -16,8 +16,8 @@ ga_params = GeneticAlgoParameter(
     population_size=100,
     mutation_rate=0.01,
     crossover_rate=0.7,
-    crossover_strategy="pmx",
-    mutate_strategy="swap",
+    crossover_strategy="swap_big",
+    mutate_strategy="swap_small",
     select_strategy="roulette",
     max_generation=100,
     loops=10,

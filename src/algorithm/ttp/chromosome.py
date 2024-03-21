@@ -35,6 +35,11 @@ class Chromosome(GeneticAlgoChromosome):
     @property
     def curriculums(self):
         return self._curriculums
+    
+    @curriculums.setter
+    def curriculums(self, value):
+        self._curriculums = value
+        # self.fitness = self.get_fitness()
 
     def get_fitness(self):
         return fitness_service.get_fitness(self.curriculums)
