@@ -1,0 +1,2755 @@
+[
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 1,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 5,
+        "session": "09",
+        "classroom": "CC305",
+        "course_key": "0099736101"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 4,
+        "session": "06",
+        "classroom": "EE505",
+        "course_key": "0099936101"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 1,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 2,
+        "session": "50",
+        "classroom": "CC305",
+        "course_key": "0110836101"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 1,
+        "teacher_list": [
+            "黃逸綸"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "S311",
+        "course_key": "0110836101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "60",
+        "classroom": "EE504",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "70",
+        "classroom": "EE504",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "01",
+        "classroom": "EE504",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 4,
+        "session": "07",
+        "classroom": "EE702",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 4,
+        "session": "08",
+        "classroom": "EE702",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 4,
+        "session": "09",
+        "classroom": "EE702",
+        "course_key": "3610136101"
+    },
+    {
+        "course_id": "36106",
+        "course_name": "數位邏輯設計",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "S213",
+        "course_key": "3610636101"
+    },
+    {
+        "course_id": "36106",
+        "course_name": "數位邏輯設計",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "S213",
+        "course_key": "3610636101"
+    },
+    {
+        "course_id": "36106",
+        "course_name": "數位邏輯設計",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "04",
+        "classroom": "S213",
+        "course_key": "3610636101"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 3,
+        "session": "70",
+        "classroom": "S301",
+        "course_key": "3610736101"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 3,
+        "session": "01",
+        "classroom": "S301",
+        "course_key": "3610736101"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "S301",
+        "course_key": "3610736101"
+    },
+    {
+        "course_id": "36111",
+        "course_name": "數位邏輯實驗",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "陳游利"
+        ],
+        "week": 2,
+        "session": "06",
+        "classroom": "S5131",
+        "course_key": "3611136101"
+    },
+    {
+        "course_id": "36111",
+        "course_name": "數位邏輯實驗",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "陳游利"
+        ],
+        "week": 2,
+        "session": "07",
+        "classroom": "S5131",
+        "course_key": "3611136101"
+    },
+    {
+        "course_id": "36111",
+        "course_name": "數位邏輯實驗",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "陳游利"
+        ],
+        "week": 2,
+        "session": "08",
+        "classroom": "S5131",
+        "course_key": "3611136101"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 2,
+        "session": "02",
+        "classroom": "EE311",
+        "course_key": "3611336101"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 2,
+        "session": "03",
+        "classroom": "EE311",
+        "course_key": "3611336101"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 2,
+        "session": "04",
+        "classroom": "EE311",
+        "course_key": "3611336101"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36101",
+        "session_length": 1,
+        "teacher_list": [
+            "王玟婷"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "S305",
+        "course_key": "3611336101"
+    },
+    {
+        "course_id": "00911",
+        "course_name": "人工智慧概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 2,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "S4031",
+        "course_key": "0091136102"
+    },
+    {
+        "course_id": "00911",
+        "course_name": "人工智慧概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 2,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "05",
+        "classroom": "S4031",
+        "course_key": "0091136102"
+    },
+    {
+        "course_id": "00911",
+        "course_name": "人工智慧概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "70",
+        "classroom": "S515",
+        "course_key": "0091136102"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 2,
+        "session": "03",
+        "classroom": "S106",
+        "course_key": "0099736102"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 2,
+        "session": "50",
+        "classroom": "S106",
+        "course_key": "0099936102"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 1,
+        "session": "01",
+        "classroom": "S106",
+        "course_key": "0110836102"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "林怡君"
+        ],
+        "week": 2,
+        "session": "01",
+        "classroom": "S102",
+        "course_key": "0110836102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 5,
+        "session": "60",
+        "classroom": "CC506",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 5,
+        "session": "70",
+        "classroom": "CC506",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 5,
+        "session": "01",
+        "classroom": "CC506",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "S513",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 3,
+        "session": "04",
+        "classroom": "S513",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36101",
+        "course_name": "程式設計一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "彭心怡"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "S513",
+        "course_key": "3610136102"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 5,
+        "session": "09",
+        "classroom": "CC305",
+        "course_key": "3610736102"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 5,
+        "session": "40",
+        "classroom": "CC305",
+        "course_key": "3610736102"
+    },
+    {
+        "course_id": "36107",
+        "course_name": "計算機概論",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "CC305",
+        "course_key": "3610736102"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 1,
+        "session": "01",
+        "classroom": "S213",
+        "course_key": "3611336102"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 1,
+        "session": "02",
+        "classroom": "S213",
+        "course_key": "3611336102"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "洪永常"
+        ],
+        "week": 1,
+        "session": "03",
+        "classroom": "S213",
+        "course_key": "3611336102"
+    },
+    {
+        "course_id": "36113",
+        "course_name": "微積分一",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 1,
+        "teacher_list": [
+            "王玟婷"
+        ],
+        "week": 3,
+        "session": "07",
+        "classroom": "CC305",
+        "course_key": "3611336102"
+    },
+    {
+        "course_id": "36239",
+        "course_name": "電子電路學",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "李開暉"
+        ],
+        "week": 4,
+        "session": "03",
+        "classroom": "S515",
+        "course_key": "3623936102"
+    },
+    {
+        "course_id": "36239",
+        "course_name": "電子電路學",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "李開暉"
+        ],
+        "week": 4,
+        "session": "04",
+        "classroom": "S515",
+        "course_key": "3623936102"
+    },
+    {
+        "course_id": "36239",
+        "course_name": "電子電路學",
+        "course_type": "必修",
+        "class_id": "36102",
+        "session_length": 3,
+        "teacher_list": [
+            "李開暉"
+        ],
+        "week": 4,
+        "session": "20",
+        "classroom": "S515",
+        "course_key": "3623936102"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 1,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 4,
+        "session": "20",
+        "classroom": "CC702",
+        "course_key": "0099736103"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 3,
+        "session": "50",
+        "classroom": "CC506",
+        "course_key": "0099936103"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 1,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "S305",
+        "course_key": "0110836103"
+    },
+    {
+        "course_id": "01108",
+        "course_name": "應用英文一",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 1,
+        "teacher_list": [
+            "黃逸綸"
+        ],
+        "week": 5,
+        "session": "20",
+        "classroom": "CC403",
+        "course_key": "0110836103"
+    },
+    {
+        "course_id": "36X01",
+        "course_name": "微積分",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 3,
+        "teacher_list": [
+            "胡學穎"
+        ],
+        "week": 2,
+        "session": "05",
+        "classroom": "AA203",
+        "course_key": "36X0136103"
+    },
+    {
+        "course_id": "36X01",
+        "course_name": "微積分",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 3,
+        "teacher_list": [
+            "胡學穎"
+        ],
+        "week": 2,
+        "session": "06",
+        "classroom": "AA203",
+        "course_key": "36X0136103"
+    },
+    {
+        "course_id": "36X01",
+        "course_name": "微積分",
+        "course_type": "必修",
+        "class_id": "36103",
+        "session_length": 3,
+        "teacher_list": [
+            "胡學穎"
+        ],
+        "week": 2,
+        "session": "07",
+        "classroom": "AA203",
+        "course_key": "36X0136103"
+    },
+    {
+        "course_id": "45101",
+        "course_name": "論文研討一",
+        "course_type": "必修",
+        "class_id": "36141",
+        "session_length": 2,
+        "teacher_list": [
+            "李開暉"
+        ],
+        "week": 1,
+        "session": "40",
+        "classroom": "S5131",
+        "course_key": "4510136141"
+    },
+    {
+        "course_id": "45101",
+        "course_name": "論文研討一",
+        "course_type": "必修",
+        "class_id": "36141",
+        "session_length": 2,
+        "teacher_list": [
+            "李開暉"
+        ],
+        "week": 1,
+        "session": "50",
+        "classroom": "S5131",
+        "course_key": "4510136141"
+    },
+    {
+        "course_id": "45145",
+        "course_name": "演算法分析與設計",
+        "course_type": "必修",
+        "class_id": "36141",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 2,
+        "session": "20",
+        "classroom": "CC305",
+        "course_key": "4514536141"
+    },
+    {
+        "course_id": "45145",
+        "course_name": "演算法分析與設計",
+        "course_type": "必修",
+        "class_id": "36141",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 2,
+        "session": "05",
+        "classroom": "CC305",
+        "course_key": "4514536141"
+    },
+    {
+        "course_id": "45145",
+        "course_name": "演算法分析與設計",
+        "course_type": "必修",
+        "class_id": "36141",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 2,
+        "session": "06",
+        "classroom": "CC305",
+        "course_key": "4514536141"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 1,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "60",
+        "classroom": "S108",
+        "course_key": "0099736201"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 4,
+        "session": "05",
+        "classroom": "EE505",
+        "course_key": "0099936201"
+    },
+    {
+        "course_id": "01208",
+        "course_name": "應用英文三",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 1,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "60",
+        "classroom": "S107",
+        "course_key": "0120836201"
+    },
+    {
+        "course_id": "01208",
+        "course_name": "應用英文三",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 1,
+        "teacher_list": [
+            "林佳琪"
+        ],
+        "week": 3,
+        "session": "08",
+        "classroom": "AA203",
+        "course_key": "0120836201"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 3,
+        "session": "07",
+        "classroom": "EE505",
+        "course_key": "3610536201"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 3,
+        "session": "08",
+        "classroom": "EE505",
+        "course_key": "3610536201"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 3,
+        "session": "09",
+        "classroom": "EE505",
+        "course_key": "3610536201"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 4,
+        "session": "02",
+        "classroom": "S302",
+        "course_key": "3620236201"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 4,
+        "session": "03",
+        "classroom": "S302",
+        "course_key": "3620236201"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 4,
+        "session": "04",
+        "classroom": "S302",
+        "course_key": "3620236201"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "09",
+        "classroom": "EE504",
+        "course_key": "3633936201"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "40",
+        "classroom": "EE504",
+        "course_key": "3633936201"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36201",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "50",
+        "classroom": "EE504",
+        "course_key": "3633936201"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 1,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 3,
+        "session": "70",
+        "classroom": "S302",
+        "course_key": "0099736202"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 4,
+        "session": "06",
+        "classroom": "S515",
+        "course_key": "0099936202"
+    },
+    {
+        "course_id": "01208",
+        "course_name": "應用英文三",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 1,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "40",
+        "classroom": "AA203",
+        "course_key": "0120836202"
+    },
+    {
+        "course_id": "01208",
+        "course_name": "應用英文三",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 1,
+        "teacher_list": [
+            "陳幼璇"
+        ],
+        "week": 1,
+        "session": "02",
+        "classroom": "S107",
+        "course_key": "0120836202"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "S102",
+        "course_key": "3610536202"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "60",
+        "classroom": "S102",
+        "course_key": "3610536202"
+    },
+    {
+        "course_id": "36105",
+        "course_name": "電腦網路導論",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "70",
+        "classroom": "S102",
+        "course_key": "3610536202"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "S213",
+        "course_key": "3620236202"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "04",
+        "classroom": "S213",
+        "course_key": "3620236202"
+    },
+    {
+        "course_id": "36202",
+        "course_name": "資料結構",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "S213",
+        "course_key": "3620236202"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "S107",
+        "course_key": "3633936202"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "05",
+        "classroom": "S107",
+        "course_key": "3633936202"
+    },
+    {
+        "course_id": "36339",
+        "course_name": "物件導向技術",
+        "course_type": "必修",
+        "class_id": "36202",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "06",
+        "classroom": "S107",
+        "course_key": "3633936202"
+    },
+    {
+        "course_id": "45201",
+        "course_name": "論文研討三",
+        "course_type": "必修",
+        "class_id": "36241",
+        "session_length": 2,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 2,
+        "session": "20",
+        "classroom": "S302",
+        "course_key": "4520136241"
+    },
+    {
+        "course_id": "45201",
+        "course_name": "論文研討三",
+        "course_type": "必修",
+        "class_id": "36241",
+        "session_length": 2,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 2,
+        "session": "05",
+        "classroom": "S302",
+        "course_key": "4520136241"
+    },
+    {
+        "course_id": "36248",
+        "course_name": "Python程式設計",
+        "course_type": "選修",
+        "class_id": "36251",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "03",
+        "classroom": "CC305",
+        "course_key": "3624836251"
+    },
+    {
+        "course_id": "36248",
+        "course_name": "Python程式設計",
+        "course_type": "選修",
+        "class_id": "36251",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "04",
+        "classroom": "CC305",
+        "course_key": "3624836251"
+    },
+    {
+        "course_id": "36248",
+        "course_name": "Python程式設計",
+        "course_type": "選修",
+        "class_id": "36251",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "CC305",
+        "course_key": "3624836251"
+    },
+    {
+        "course_id": "363A2",
+        "course_name": "程式設計與認證一",
+        "course_type": "選修",
+        "class_id": "36252",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "08",
+        "classroom": "S401",
+        "course_key": "363A236252"
+    },
+    {
+        "course_id": "363A2",
+        "course_name": "程式設計與認證一",
+        "course_type": "選修",
+        "class_id": "36252",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "09",
+        "classroom": "S401",
+        "course_key": "363A236252"
+    },
+    {
+        "course_id": "363A2",
+        "course_name": "程式設計與認證一",
+        "course_type": "選修",
+        "class_id": "36252",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "40",
+        "classroom": "S401",
+        "course_key": "363A236252"
+    },
+    {
+        "course_id": "36379",
+        "course_name": "機密分享概論",
+        "course_type": "選修",
+        "class_id": "36253",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "40",
+        "classroom": "S311",
+        "course_key": "3637936253"
+    },
+    {
+        "course_id": "36379",
+        "course_name": "機密分享概論",
+        "course_type": "選修",
+        "class_id": "36253",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "50",
+        "classroom": "S311",
+        "course_key": "3637936253"
+    },
+    {
+        "course_id": "36379",
+        "course_name": "機密分享概論",
+        "course_type": "選修",
+        "class_id": "36253",
+        "session_length": 3,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 3,
+        "session": "60",
+        "classroom": "S311",
+        "course_key": "3637936253"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 1,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 4,
+        "session": "50",
+        "classroom": "S305",
+        "course_key": "0099736301"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "專研",
+        "course_key": "0099936301"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 3,
+        "session": "06",
+        "classroom": "S305",
+        "course_key": "3620136301"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 3,
+        "session": "07",
+        "classroom": "S305",
+        "course_key": "3620136301"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 3,
+        "session": "08",
+        "classroom": "S305",
+        "course_key": "3620136301"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王培元"
+        ],
+        "week": 2,
+        "session": "70",
+        "classroom": "EE311",
+        "course_key": "3630136301"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王培元"
+        ],
+        "week": 2,
+        "session": "01",
+        "classroom": "EE311",
+        "course_key": "3630136301"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "王培元"
+        ],
+        "week": 2,
+        "session": "02",
+        "classroom": "EE311",
+        "course_key": "3630136301"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "70",
+        "classroom": "CC506",
+        "course_key": "3630436301"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "01",
+        "classroom": "CC506",
+        "course_key": "3630436301"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36301",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "CC506",
+        "course_key": "3630436301"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 1,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 2,
+        "session": "08",
+        "classroom": "S106",
+        "course_key": "0099736302"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 3,
+        "session": "07",
+        "classroom": "S305",
+        "course_key": "0099936302"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 4,
+        "session": "20",
+        "classroom": "S213",
+        "course_key": "3620136302"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 4,
+        "session": "05",
+        "classroom": "S213",
+        "course_key": "3620136302"
+    },
+    {
+        "course_id": "36201",
+        "course_name": "機率與統計",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 4,
+        "session": "06",
+        "classroom": "S213",
+        "course_key": "3620136302"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王立天",
+            "王培元"
+        ],
+        "week": 1,
+        "session": "08",
+        "classroom": "S301",
+        "course_key": "3630136302"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王立天",
+            "王培元"
+        ],
+        "week": 1,
+        "session": "09",
+        "classroom": "S301",
+        "course_key": "3630136302"
+    },
+    {
+        "course_id": "36301",
+        "course_name": "作業系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "王立天",
+            "王培元"
+        ],
+        "week": 1,
+        "session": "40",
+        "classroom": "S301",
+        "course_key": "3630136302"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 5,
+        "session": "20",
+        "classroom": "S305",
+        "course_key": "3630436302"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 5,
+        "session": "05",
+        "classroom": "S305",
+        "course_key": "3630436302"
+    },
+    {
+        "course_id": "36304",
+        "course_name": "資料庫系統",
+        "course_type": "必修",
+        "class_id": "36302",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 5,
+        "session": "06",
+        "classroom": "S305",
+        "course_key": "3630436302"
+    },
+    {
+        "course_id": "36373",
+        "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
+        "class_id": "36351",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 3,
+        "session": "09",
+        "classroom": "S301",
+        "course_key": "3637336351"
+    },
+    {
+        "course_id": "36373",
+        "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
+        "class_id": "36351",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 3,
+        "session": "40",
+        "classroom": "S301",
+        "course_key": "3637336351"
+    },
+    {
+        "course_id": "36373",
+        "course_name": "互動視訊遊戲製作",
+        "course_type": "選修",
+        "class_id": "36351",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 3,
+        "session": "50",
+        "classroom": "S301",
+        "course_key": "3637336351"
+    },
+    {
+        "course_id": "36324",
+        "course_name": "R",
+        "course_type": "選修",
+        "class_id": "36352",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "05",
+        "classroom": "S513",
+        "course_key": "3632436352"
+    },
+    {
+        "course_id": "36324",
+        "course_name": "R",
+        "course_type": "選修",
+        "class_id": "36352",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "06",
+        "classroom": "S513",
+        "course_key": "3632436352"
+    },
+    {
+        "course_id": "36324",
+        "course_name": "R",
+        "course_type": "選修",
+        "class_id": "36352",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "07",
+        "classroom": "S513",
+        "course_key": "3632436352"
+    },
+    {
+        "course_id": "36434",
+        "course_name": "網路規劃與管理",
+        "course_type": "選修",
+        "class_id": "36353",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "09",
+        "classroom": "CC702",
+        "course_key": "3643436353"
+    },
+    {
+        "course_id": "36434",
+        "course_name": "網路規劃與管理",
+        "course_type": "選修",
+        "class_id": "36353",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "40",
+        "classroom": "CC702",
+        "course_key": "3643436353"
+    },
+    {
+        "course_id": "36434",
+        "course_name": "網路規劃與管理",
+        "course_type": "選修",
+        "class_id": "36353",
+        "session_length": 3,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "CC702",
+        "course_key": "3643436353"
+    },
+    {
+        "course_id": "36245",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36354",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 1,
+        "session": "02",
+        "classroom": "S515",
+        "course_key": "3624536354"
+    },
+    {
+        "course_id": "36245",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36354",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 1,
+        "session": "03",
+        "classroom": "S515",
+        "course_key": "3624536354"
+    },
+    {
+        "course_id": "36245",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36354",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 1,
+        "session": "04",
+        "classroom": "S515",
+        "course_key": "3624536354"
+    },
+    {
+        "course_id": "36338",
+        "course_name": "軟體工程導論",
+        "course_type": "選修",
+        "class_id": "36355",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 4,
+        "session": "03",
+        "classroom": "S401",
+        "course_key": "3633836355"
+    },
+    {
+        "course_id": "36338",
+        "course_name": "軟體工程導論",
+        "course_type": "選修",
+        "class_id": "36355",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 4,
+        "session": "04",
+        "classroom": "S401",
+        "course_key": "3633836355"
+    },
+    {
+        "course_id": "36338",
+        "course_name": "軟體工程導論",
+        "course_type": "選修",
+        "class_id": "36355",
+        "session_length": 3,
+        "teacher_list": [
+            "何祖鳳"
+        ],
+        "week": 4,
+        "session": "20",
+        "classroom": "S401",
+        "course_key": "3633836355"
+    },
+    {
+        "course_id": "36365",
+        "course_name": "UNIX作業系統",
+        "course_type": "選修",
+        "class_id": "36356",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 1,
+        "session": "04",
+        "classroom": "AA603",
+        "course_key": "3636536356"
+    },
+    {
+        "course_id": "36365",
+        "course_name": "UNIX作業系統",
+        "course_type": "選修",
+        "class_id": "36356",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "AA603",
+        "course_key": "3636536356"
+    },
+    {
+        "course_id": "36365",
+        "course_name": "UNIX作業系統",
+        "course_type": "選修",
+        "class_id": "36356",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 1,
+        "session": "05",
+        "classroom": "AA603",
+        "course_key": "3636536356"
+    },
+    {
+        "course_id": "36358",
+        "course_name": "FPGA/CPLD",
+        "course_type": "選修",
+        "class_id": "36357",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "01",
+        "classroom": "AA203",
+        "course_key": "3635836357"
+    },
+    {
+        "course_id": "36358",
+        "course_name": "FPGA/CPLD",
+        "course_type": "選修",
+        "class_id": "36357",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "AA203",
+        "course_key": "3635836357"
+    },
+    {
+        "course_id": "36358",
+        "course_name": "FPGA/CPLD",
+        "course_type": "選修",
+        "class_id": "36357",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "AA203",
+        "course_key": "3635836357"
+    },
+    {
+        "course_id": "36329",
+        "course_name": "創新創意專案開發",
+        "course_type": "選修",
+        "class_id": "36358",
+        "session_length": 3,
+        "teacher_list": [
+            "林怡先",
+            "陳柏年",
+            "李開暉"
+        ],
+        "week": 1,
+        "session": "01",
+        "classroom": "EE505",
+        "course_key": "3632936358"
+    },
+    {
+        "course_id": "36329",
+        "course_name": "創新創意專案開發",
+        "course_type": "選修",
+        "class_id": "36358",
+        "session_length": 3,
+        "teacher_list": [
+            "林怡先",
+            "陳柏年",
+            "李開暉"
+        ],
+        "week": 1,
+        "session": "02",
+        "classroom": "EE505",
+        "course_key": "3632936358"
+    },
+    {
+        "course_id": "36329",
+        "course_name": "創新創意專案開發",
+        "course_type": "選修",
+        "class_id": "36358",
+        "session_length": 3,
+        "teacher_list": [
+            "林怡先",
+            "陳柏年",
+            "李開暉"
+        ],
+        "week": 1,
+        "session": "03",
+        "classroom": "EE505",
+        "course_key": "3632936358"
+    },
+    {
+        "course_id": "36377",
+        "course_name": "資訊安全導論",
+        "course_type": "選修",
+        "class_id": "36359",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "06",
+        "classroom": "S108",
+        "course_key": "3637736359"
+    },
+    {
+        "course_id": "36377",
+        "course_name": "資訊安全導論",
+        "course_type": "選修",
+        "class_id": "36359",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "07",
+        "classroom": "S108",
+        "course_key": "3637736359"
+    },
+    {
+        "course_id": "36377",
+        "course_name": "資訊安全導論",
+        "course_type": "選修",
+        "class_id": "36359",
+        "session_length": 3,
+        "teacher_list": [
+            "蘇民揚"
+        ],
+        "week": 1,
+        "session": "08",
+        "classroom": "S108",
+        "course_key": "3637736359"
+    },
+    {
+        "course_id": "36330",
+        "course_name": "物聯網技術",
+        "course_type": "選修",
+        "class_id": "36360",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "40",
+        "classroom": "EE504",
+        "course_key": "3633036360"
+    },
+    {
+        "course_id": "36330",
+        "course_name": "物聯網技術",
+        "course_type": "選修",
+        "class_id": "36360",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "EE504",
+        "course_key": "3633036360"
+    },
+    {
+        "course_id": "36330",
+        "course_name": "物聯網技術",
+        "course_type": "選修",
+        "class_id": "36360",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "60",
+        "classroom": "EE504",
+        "course_key": "3633036360"
+    },
+    {
+        "course_id": "363A7",
+        "course_name": "影像處理實務",
+        "course_type": "選修",
+        "class_id": "36361",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "CC307",
+        "course_key": "363A736361"
+    },
+    {
+        "course_id": "363A7",
+        "course_name": "影像處理實務",
+        "course_type": "選修",
+        "class_id": "36361",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "04",
+        "classroom": "CC307",
+        "course_key": "363A736361"
+    },
+    {
+        "course_id": "363A7",
+        "course_name": "影像處理實務",
+        "course_type": "選修",
+        "class_id": "36361",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "CC307",
+        "course_key": "363A736361"
+    },
+    {
+        "course_id": "363A5",
+        "course_name": "Unity3D",
+        "course_type": "選修",
+        "class_id": "36362",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "50",
+        "classroom": "S4031",
+        "course_key": "363A536362"
+    },
+    {
+        "course_id": "363A5",
+        "course_name": "Unity3D",
+        "course_type": "選修",
+        "class_id": "36362",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "60",
+        "classroom": "S4031",
+        "course_key": "363A536362"
+    },
+    {
+        "course_id": "363A5",
+        "course_name": "Unity3D",
+        "course_type": "選修",
+        "class_id": "36362",
+        "session_length": 3,
+        "teacher_list": [
+            "歐占和"
+        ],
+        "week": 5,
+        "session": "70",
+        "classroom": "S4031",
+        "course_key": "363A536362"
+    },
+    {
+        "course_id": "36266",
+        "course_name": "互動電子技術專題",
+        "course_type": "選修",
+        "class_id": "36363",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "04",
+        "classroom": "CC403",
+        "course_key": "3626636363"
+    },
+    {
+        "course_id": "36266",
+        "course_name": "互動電子技術專題",
+        "course_type": "選修",
+        "class_id": "36363",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "20",
+        "classroom": "CC403",
+        "course_key": "3626636363"
+    },
+    {
+        "course_id": "36266",
+        "course_name": "互動電子技術專題",
+        "course_type": "選修",
+        "class_id": "36363",
+        "session_length": 3,
+        "teacher_list": [
+            "黃世育"
+        ],
+        "week": 1,
+        "session": "05",
+        "classroom": "CC403",
+        "course_key": "3626636363"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36401",
+        "session_length": 1,
+        "teacher_list": [
+            "徐熊健"
+        ],
+        "week": 1,
+        "session": "05",
+        "classroom": "S311",
+        "course_key": "0099736401"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36401",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 2,
+        "session": "07",
+        "classroom": "S106",
+        "course_key": "0099936401"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36401",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 5,
+        "session": "20",
+        "classroom": "S302",
+        "course_key": "3640136401"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36401",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 5,
+        "session": "05",
+        "classroom": "S302",
+        "course_key": "3640136401"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36401",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 5,
+        "session": "06",
+        "classroom": "S302",
+        "course_key": "3640136401"
+    },
+    {
+        "course_id": "00997",
+        "course_name": "班會",
+        "course_type": "必修",
+        "class_id": "36402",
+        "session_length": 1,
+        "teacher_list": [
+            "徐武孝"
+        ],
+        "week": 4,
+        "session": "05",
+        "classroom": "AA602",
+        "course_key": "0099736402"
+    },
+    {
+        "course_id": "00999",
+        "course_name": "週會",
+        "course_type": "必修",
+        "class_id": "36402",
+        "session_length": 1,
+        "teacher_list": [
+            "梅姥釃"
+        ],
+        "week": 4,
+        "session": "03",
+        "classroom": "S311",
+        "course_key": "0099936402"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36402",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "S4031",
+        "course_key": "3640136402"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36402",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "04",
+        "classroom": "S4031",
+        "course_key": "3640136402"
+    },
+    {
+        "course_id": "36401",
+        "course_name": "專題研究二",
+        "course_type": "必修",
+        "class_id": "36402",
+        "session_length": 3,
+        "teacher_list": [
+            "共同指導"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "S4031",
+        "course_key": "3640136402"
+    },
+    {
+        "course_id": "36467",
+        "course_name": "企業實習",
+        "course_type": "選修",
+        "class_id": "36451",
+        "session_length": 3,
+        "teacher_list": [
+            "楊健貴"
+        ],
+        "week": 5,
+        "session": "60",
+        "classroom": "S401",
+        "course_key": "3646736451"
+    },
+    {
+        "course_id": "36467",
+        "course_name": "企業實習",
+        "course_type": "選修",
+        "class_id": "36451",
+        "session_length": 3,
+        "teacher_list": [
+            "楊健貴"
+        ],
+        "week": 5,
+        "session": "70",
+        "classroom": "S401",
+        "course_key": "3646736451"
+    },
+    {
+        "course_id": "36467",
+        "course_name": "企業實習",
+        "course_type": "選修",
+        "class_id": "36451",
+        "session_length": 3,
+        "teacher_list": [
+            "楊健貴"
+        ],
+        "week": 5,
+        "session": "01",
+        "classroom": "S401",
+        "course_key": "3646736451"
+    },
+    {
+        "course_id": "36464",
+        "course_name": "開源探勘實務應用",
+        "course_type": "選修",
+        "class_id": "36452",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 2,
+        "session": "70",
+        "classroom": "AA603",
+        "course_key": "3646436452"
+    },
+    {
+        "course_id": "36464",
+        "course_name": "開源探勘實務應用",
+        "course_type": "選修",
+        "class_id": "36452",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 2,
+        "session": "01",
+        "classroom": "AA603",
+        "course_key": "3646436452"
+    },
+    {
+        "course_id": "36464",
+        "course_name": "開源探勘實務應用",
+        "course_type": "選修",
+        "class_id": "36452",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 2,
+        "session": "02",
+        "classroom": "AA603",
+        "course_key": "3646436452"
+    },
+    {
+        "course_id": "36422",
+        "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
+        "class_id": "36453",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 5,
+        "session": "02",
+        "classroom": "CC403",
+        "course_key": "3642236453"
+    },
+    {
+        "course_id": "36422",
+        "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
+        "class_id": "36453",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 5,
+        "session": "03",
+        "classroom": "CC403",
+        "course_key": "3642236453"
+    },
+    {
+        "course_id": "36422",
+        "course_name": "開源作業系統操作實務",
+        "course_type": "選修",
+        "class_id": "36453",
+        "session_length": 3,
+        "teacher_list": [
+            "魏廉臻"
+        ],
+        "week": 5,
+        "session": "04",
+        "classroom": "CC403",
+        "course_key": "3642236453"
+    },
+    {
+        "course_id": "36420",
+        "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
+        "class_id": "36454",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "20",
+        "classroom": "AA603",
+        "course_key": "3642036454"
+    },
+    {
+        "course_id": "36420",
+        "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
+        "class_id": "36454",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "05",
+        "classroom": "AA603",
+        "course_key": "3642036454"
+    },
+    {
+        "course_id": "36420",
+        "course_name": "網頁設計與實務應用",
+        "course_type": "選修",
+        "class_id": "36454",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 4,
+        "session": "06",
+        "classroom": "AA603",
+        "course_key": "3642036454"
+    },
+    {
+        "course_id": "36568",
+        "course_name": "高等文本資料探勘",
+        "course_type": "選修",
+        "class_id": "36551",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "20",
+        "classroom": "S4031",
+        "course_key": "3656836551"
+    },
+    {
+        "course_id": "36568",
+        "course_name": "高等文本資料探勘",
+        "course_type": "選修",
+        "class_id": "36551",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "05",
+        "classroom": "S4031",
+        "course_key": "3656836551"
+    },
+    {
+        "course_id": "36568",
+        "course_name": "高等文本資料探勘",
+        "course_type": "選修",
+        "class_id": "36551",
+        "session_length": 3,
+        "teacher_list": [
+            "李御璽"
+        ],
+        "week": 3,
+        "session": "06",
+        "classroom": "S4031",
+        "course_key": "3656836551"
+    },
+    {
+        "course_id": "45131",
+        "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
+        "class_id": "36552",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "50",
+        "classroom": "AA603",
+        "course_key": "4513136552"
+    },
+    {
+        "course_id": "45131",
+        "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
+        "class_id": "36552",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "60",
+        "classroom": "AA603",
+        "course_key": "4513136552"
+    },
+    {
+        "course_id": "45131",
+        "course_name": "機器學習與資料探勘",
+        "course_type": "選修",
+        "class_id": "36552",
+        "session_length": 3,
+        "teacher_list": [
+            "顏秀珍"
+        ],
+        "week": 3,
+        "session": "70",
+        "classroom": "AA603",
+        "course_key": "4513136552"
+    },
+    {
+        "course_id": "45162",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36553",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 5,
+        "session": "20",
+        "classroom": "EE504",
+        "course_key": "4516236553"
+    },
+    {
+        "course_id": "45162",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36553",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 5,
+        "session": "05",
+        "classroom": "EE504",
+        "course_key": "4516236553"
+    },
+    {
+        "course_id": "45162",
+        "course_name": "人工智慧",
+        "course_type": "選修",
+        "class_id": "36553",
+        "session_length": 3,
+        "teacher_list": [
+            "王豐緒"
+        ],
+        "week": 5,
+        "session": "06",
+        "classroom": "EE504",
+        "course_key": "4516236553"
+    },
+    {
+        "course_id": "36545",
+        "course_name": "數位影像處理",
+        "course_type": "選修",
+        "class_id": "36554",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "01",
+        "classroom": "S102",
+        "course_key": "3654536554"
+    },
+    {
+        "course_id": "36545",
+        "course_name": "數位影像處理",
+        "course_type": "選修",
+        "class_id": "36554",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "02",
+        "classroom": "S102",
+        "course_key": "3654536554"
+    },
+    {
+        "course_id": "36545",
+        "course_name": "數位影像處理",
+        "course_type": "選修",
+        "class_id": "36554",
+        "session_length": 3,
+        "teacher_list": [
+            "趙和昌"
+        ],
+        "week": 3,
+        "session": "03",
+        "classroom": "S102",
+        "course_key": "3654536554"
+    },
+    {
+        "course_id": "36X02",
+        "course_name": "互動電子實務",
+        "course_type": "選修",
+        "class_id": "36651",
+        "session_length": 3,
+        "teacher_list": [
+            "羅慶同"
+        ],
+        "week": 2,
+        "session": "70",
+        "classroom": "AA602",
+        "course_key": "36X0236651"
+    },
+    {
+        "course_id": "36X02",
+        "course_name": "互動電子實務",
+        "course_type": "選修",
+        "class_id": "36651",
+        "session_length": 3,
+        "teacher_list": [
+            "羅慶同"
+        ],
+        "week": 2,
+        "session": "01",
+        "classroom": "AA602",
+        "course_key": "36X0236651"
+    },
+    {
+        "course_id": "36X02",
+        "course_name": "互動電子實務",
+        "course_type": "選修",
+        "class_id": "36651",
+        "session_length": 3,
+        "teacher_list": [
+            "羅慶同"
+        ],
+        "week": 2,
+        "session": "02",
+        "classroom": "AA602",
+        "course_key": "36X0236651"
+    },
+    {
+        "course_id": "36X03",
+        "course_name": "基礎程式設計",
+        "course_type": "選修",
+        "class_id": "36652",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 5,
+        "session": "01",
+        "classroom": "CC702",
+        "course_key": "36X0336652"
+    },
+    {
+        "course_id": "36X03",
+        "course_name": "基礎程式設計",
+        "course_type": "選修",
+        "class_id": "36652",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 5,
+        "session": "02",
+        "classroom": "CC702",
+        "course_key": "36X0336652"
+    },
+    {
+        "course_id": "36X03",
+        "course_name": "基礎程式設計",
+        "course_type": "選修",
+        "class_id": "36652",
+        "session_length": 3,
+        "teacher_list": [
+            "謝育平"
+        ],
+        "week": 5,
+        "session": "03",
+        "classroom": "CC702",
+        "course_key": "36X0336652"
+    }
+]

@@ -2,5 +2,5 @@
 *.key
 *.pem
 .env
-data/results
+data/results/chromosome_*
 __pycache__
