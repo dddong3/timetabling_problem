@@ -7,7 +7,7 @@ from src.algorithm.ttp.app import run
 
 
 class ChromosomeSerivce:
-    result_path = "data/result/"
+    result_path = "data/results/"
     is_running = False
 
     def get_chromosome_list(self) -> list[str]:
@@ -15,7 +15,8 @@ class ChromosomeSerivce:
         @return: List of chromosome files without extension
         """
         files = os.listdir(self.result_path)
-        chromosome_list = [file.split(".")[0] for file in files]
+        chromosome_list = list(filter(lambda x: x[-4:] == "json", files))
+        chromosome_list = [chromosome.split(".")[0] for chromosome in chromosome_list]
         return chromosome_list
 
     def get_chromosome_file(self, filename: str) -> dict:
