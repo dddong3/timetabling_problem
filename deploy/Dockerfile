@@ -24,6 +24,8 @@ COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
 RUN apt-get update && apt-get install -y nginx supervisor
 
+RUN RUN rm -rf /etc/nginx/sites-enabled/default
+
 COPY deploy/conf/nginx.conf /etc/nginx/conf.d/default.conf
 
 COPY src /app/src
