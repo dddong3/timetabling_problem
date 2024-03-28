@@ -1,4 +1,5 @@
 import random
+import copy
 
 from src.algorithm.genetic_algo.chromosome import Chromosome as GeneticAlgoChromosome
 from src.algorithm.genetic_algo.chromosome import ChromosomeRegistry
@@ -23,6 +24,9 @@ def random_curriculum() -> list[Curriculum]:
         curruculum.week = random.randint(1, 5)
         curriculums.append(curruculum)
     return curriculums
+
+def copy_curriculum() -> list[Curriculum]:
+    return copy.deepcopy(school_curriculum_service.convert_to_curriculum(school_curruculum_template))
 
 
 @ChromosomeRegistry.register("TTP")
