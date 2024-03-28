@@ -33,7 +33,7 @@ def copy_curriculum() -> list[Curriculum]:
 class Chromosome(GeneticAlgoChromosome):
     def __init__(self, parameters: GeneticAlgoParameter, data: dict = None):
         super().__init__(parameters)
-        self._curriculums: list[Curriculum] = random_curriculum()
+        self._curriculums: list[Curriculum] = copy_curriculum()
         self.fitness = self.get_fitness()
 
     @property
