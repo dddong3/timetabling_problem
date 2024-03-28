@@ -31,6 +31,12 @@ class ChromosomeSerivce:
             return HTTPException(status_code=404, detail="Item not found")
 
         result_chromosome = json.load(open(self.result_path + filename + ".json", "r"))
+
+        for chromosome in result_chromosome:
+            if len(chromosome["session"]) == 1:
+                chromosome["session"] = "0" + chromosome["session"]
+            chromosome["course_key"] = str(chromosome["course_id"]) + str(chromosome["class_id"])
+
         return result_chromosome
 
     def delete_chromosome_file(self, filename: str) -> list[str]:
