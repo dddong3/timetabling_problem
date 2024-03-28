@@ -26,7 +26,7 @@ def random_curriculum() -> list[Curriculum]:
     return curriculums
 
 def copy_curriculum() -> list[Curriculum]:
-    return copy.deepcopy(school_curriculum_service.convert_to_curriculum(school_curruculum_template))
+    return copy.deepcopy(school_curruculum_template)
 
 
 @ChromosomeRegistry.register("TTP")
