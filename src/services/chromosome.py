@@ -5,6 +5,9 @@ from fastapi import BackgroundTasks, HTTPException
 
 from src.algorithm.ttp.app import run
 
+SESSION_LIST = [
+    "01", "02", "03", "04", "20", "05", "06", "07", "08", "09", "30", "40", "50", "60", "70"
+]
 
 class ChromosomeSerivce:
     result_path = "data/results/"
@@ -30,12 +33,22 @@ class ChromosomeSerivce:
         if filename not in chromosome_list:
             return HTTPException(status_code=404, detail="Item not found")
 
-        result_chromosome = json.load(open(self.result_path + filename + ".json", "r"))
+        file_chromosome = json.load(open(self.result_path + filename + ".json", "r"))
 
-        for chromosome in result_chromosome:
+        for chromosome in file_chromosome:
             if len(chromosome["session"]) == 1:
                 chromosome["session"] = "0" + chromosome["session"]
             chromosome["course_key"] = str(chromosome["course_id"]) + str(chromosome["class_id"])
+
+        result_chromosome = []
+
+        for chromosome in file_chromosome:
+            session = chromosome["session"]
+            session_idx = SESSION_LIST.index(session)
+
+            for i in range(chromosome["session_length"]):
+                chromosome["session"] = SESSION_LIST[session_idx + i]
+                result_chromosome.append(chromosome.copy())
 
         return result_chromosome
 
