@@ -6,6 +6,9 @@ from src.algorithm.services.school_curriculum import SchoolCurriculumService
 
 school_curriculum_service = SchoolCurriculumService()
 
+SESSION_LIST = [
+    "1", "2", "3", "4", "20", "5", "6", "7", "8", "9", "30", "40", "50", "60", "70"
+]
 
 class CurriculumService:
     def __init__(self):
@@ -50,7 +53,19 @@ class CurriculumService:
                 )
             )
 
-        return school_curriculums
+
+        result_chromosome = []
+
+        for chromosome in school_curriculums:
+            session = chromosome.session #chromosome["session"]
+            session_idx = SESSION_LIST.index(session)
+
+            for i in range(chromosome.session_length):
+                chromosome.session = SESSION_LIST[session_idx + i]
+                result_chromosome.append(chromosome.copy())
+
+
+        return result_chromosome
 
 
 # service = CurriculumService()

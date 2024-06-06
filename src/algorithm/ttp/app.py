@@ -39,3 +39,6 @@ def run(**kwargs) -> Chromosome:
             ensure_ascii=False,
             indent=4,
         )
+
+if __name__ == "__main__":
+    run(live=20, popu=20)

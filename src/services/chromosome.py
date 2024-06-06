@@ -47,10 +47,10 @@ class ChromosomeSerivce:
             session_idx = SESSION_LIST.index(session)
 
             for i in range(chromosome["session_length"]):
-                chromosome["session"] = SESSION_LIST[session_idx + i]
+                chromosome["session"] = SESSION_LIST[(session_idx + i) % len(SESSION_LIST)]
                 result_chromosome.append(chromosome.copy())
 
-        return result_chromosome
+        return file_chromosome
 
     def delete_chromosome_file(self, filename: str) -> list[str]:
         """
