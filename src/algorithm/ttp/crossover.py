@@ -1,9 +1,9 @@
+import random
+
 from ..genetic_algo.crossover import Crossover
 from ..genetic_algo.crossover import StrategyRegistry as CrossoverStrategyRegistry
 from ..genetic_algo.parameter import GeneticAlgoParameter
 from .chromosome import Chromosome
-
-import random
 
 
 @CrossoverStrategyRegistry.register("swap_big")

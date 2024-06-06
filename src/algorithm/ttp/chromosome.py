@@ -1,5 +1,5 @@
-import random
 import copy
+import random
 
 from src.algorithm.genetic_algo.chromosome import Chromosome as GeneticAlgoChromosome
 from src.algorithm.genetic_algo.chromosome import ChromosomeRegistry
@@ -25,6 +25,7 @@ def random_curriculum() -> list[Curriculum]:
         curriculums.append(curruculum)
     return curriculums
 
+
 def copy_curriculum() -> list[Curriculum]:
     return copy.deepcopy(school_curruculum_template)
 
@@ -39,7 +40,7 @@ class Chromosome(GeneticAlgoChromosome):
     @property
     def curriculums(self):
         return self._curriculums
-    
+
     @curriculums.setter
     def curriculums(self, value):
         self._curriculums = value

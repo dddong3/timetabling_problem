@@ -1,9 +1,9 @@
+import random
+
 from ..genetic_algo.mutate import Mutate
 from ..genetic_algo.mutate import StrategyRegistry as MutateStrategyRegistry
 from ..genetic_algo.parameter import GeneticAlgoParameter
 from .chromosome import Chromosome
-
-import random
 
 
 @MutateStrategyRegistry.register("swap_small")
