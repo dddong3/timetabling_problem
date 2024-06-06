@@ -16,22 +16,25 @@ class SwapMutate(Mutate):
         curriculums = chromosome.curriculums
 
         idx2 = random.randint(0, curriculums_size - 1)
-        curriculums[idx].classroom, curriculums[idx2].classroom = curriculums[idx2].classroom, curriculums[idx].classroom
+        curriculums[idx].classroom, curriculums[idx2].classroom = (
+            curriculums[idx2].classroom,
+            curriculums[idx].classroom,
+        )
 
         return chromosome
-
-
 
     def mutate(self, chromosomes: list[Chromosome]) -> list[Chromosome]:
         for chromosome_idx in range(len(chromosomes)):
             for curriculum_idx in range(len(chromosomes[chromosome_idx].curriculums)):
                 if random.random() > self.params.mutation_rate:
                     continue
-                
-                chromosomes[chromosome_idx] = self.swap_small_class(curriculum_idx, chromosomes[chromosome_idx])
+
+                chromosomes[chromosome_idx] = self.swap_small_class(
+                    curriculum_idx, chromosomes[chromosome_idx]
+                )
             # if random.random() > self.params.mutation_rate:
             #     continue
-            
-                # chromosome = self.swap_small_class(curriculum_idx, chromosome)
+
+            # chromosome = self.swap_small_class(curriculum_idx, chromosome)
 
         return chromosomes

@@ -22,8 +22,6 @@ class SwapBigCrossover(Crossover):
             elif p2[i].classroom == class1 or p2[i].classroom == class2:
                 p2[i].classroom = class2 if p2[i].classroom == class1 else class1
 
-        
-
     def swap_big(self, chromosome1: Chromosome, chromosome2: Chromosome):
         return self.swap_classroom(chromosome1, chromosome2)
 

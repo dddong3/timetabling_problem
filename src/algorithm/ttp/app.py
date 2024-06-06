@@ -40,5 +40,6 @@ def run(**kwargs) -> Chromosome:
             indent=4,
         )
 
+
 if __name__ == "__main__":
     run(live=20, popu=20)
