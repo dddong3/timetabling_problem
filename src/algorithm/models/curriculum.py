@@ -6,6 +6,7 @@ from .classroom import Classroom
 class Curriculum(BaseModel):
     teachers: int
     course_key: str
+    course_type: str
     grade: str
     session_length: int
     session: int

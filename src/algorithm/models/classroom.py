@@ -11,3 +11,12 @@ class Classroom(BaseModel):
 
     def __str__(self):
         return f"{self.id}"
+
+    def __hash__(self) -> int:
+        return hash(self.id)
+    
+    # def __eq__(self, o: object) -> bool:
+    #     return self.id == o.id
+    
+    # def __lt__(self, o: object) -> bool:
+    #     return self.id < o.id

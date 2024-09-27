@@ -3,4 +3,5 @@
 *.pem
 .env
 data/results/chromosome_*
+data/results/rules*
 __pycache__

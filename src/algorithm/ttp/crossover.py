@@ -31,3 +31,31 @@ class SwapBigCrossover(Crossover):
                 self.swap_big(chromosomes[i], chromosomes[i + 1])
 
         return chromosomes
+
+@CrossoverStrategyRegistry.register("skip")
+class SkipCrossover(Crossover):
+    def __init__(self, parameters: GeneticAlgoParameter, data: dict = None):
+        super().__init__(parameters)
+
+    def crossover(self, chromosomes: list[Chromosome]) -> list[Chromosome]:
+        return chromosomes
+    
+@CrossoverStrategyRegistry.register("swap")
+class SwapCrossover(Crossover):
+    def __init__(self, parameters: GeneticAlgoParameter, data: dict = None):
+        super().__init__(parameters)
+
+    def swap(self, chromosome1: Chromosome, chromosome2: Chromosome):
+        # return self.swap_classroom(chromosome1, chromosome2)
+        p1, p2 = chromosome1.curriculums, chromosome2.curriculums
+        curriculums_size = len(p1)
+        idxl, idxr = random.sample(range(curriculums_size), 2)
+        p1[idxl:idxr], p2[idxl:idxr] = p2[idxl:idxr], p1[idxl:idxr]
+
+
+    def crossover(self, chromosomes: list[Chromosome]) -> list[Chromosome]:
+        for i in range(0, len(chromosomes), 2):
+            if random.random() < self.params.crossover_rate:
+                self.swap(chromosomes[i], chromosomes[i + 1])
+
+        return chromosomes

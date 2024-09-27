@@ -52,6 +52,7 @@ class SchoolCurriculumService:
             curriculum = Curriculum(
                 teachers=teachers,
                 course_key=course_key,
+                course_type=school_curriculum.course_type,
                 grade=school_curriculum.class_id[-3],
                 session=school_curriculum.session,
                 session_length=school_curriculum.session_length,

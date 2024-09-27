@@ -52,4 +52,4 @@ class Chromosome(ABC):
         """Return True if chromosome is less than other."""
         if not isinstance(other, Chromosome):
             return NotImplemented
-        return self.get_fitness() > other.get_fitness()
+        return self.get_fitness() < other.get_fitness()

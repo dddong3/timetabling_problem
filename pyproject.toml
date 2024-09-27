@@ -9,11 +9,12 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 black = "^24.3.0"
 isort = "^5.13.2"
 uvicorn = "^0.29.0"
 fastapi = "^0.110.0"
+matplotlib = "^3.9.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.1.1"

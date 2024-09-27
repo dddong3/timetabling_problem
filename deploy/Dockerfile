@@ -38,6 +38,6 @@ COPY deploy/conf/supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 RUN mkdir -p /var/log/supervisor /var/log/nginx /var/log/uvicorn
 
-CMD [ "supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
 
 EXPOSE 80

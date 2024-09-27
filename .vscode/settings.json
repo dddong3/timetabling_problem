@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "34.42.106.230",
+            "port": 8009,
+            "driver": "PostgreSQL",
+            "name": "kailihousekeeping",
+            "database": "ERP",
+            "username": "postgre",
+            "password": "kailihousekeeping"
+        }
+    ]
+}

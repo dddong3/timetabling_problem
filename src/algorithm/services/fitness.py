@@ -1,6 +1,6 @@
 from src.algorithm.models.curriculum import Curriculum
 
-SESSION_TABLE: list[int] = [1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 30, 40, 50, 60]
+SESSION_TABLE: list[int] = [1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 40, 50, 60]
 
 
 class FitnessService:
