@@ -6,7 +6,7 @@ router = APIRouter()
 service = ChromosomeSerivce()
 
 
-@router.get("/")
+@router.get("")
 async def get_chromosome_list():
     return service.get_chromosome_list()
 
@@ -35,7 +35,7 @@ async def delete_chromosome_file(filename: str):
 from fastapi import BackgroundTasks
 
 
-@router.post("/")
+@router.post("")
 async def post_chromosome(
     background_tasks: BackgroundTasks,
     live: int = 1000,
