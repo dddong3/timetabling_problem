@@ -3,6 +3,5 @@
 *.pem
 .env
 data/results/chromosome_*
-data/results/rules*
 data/results/*.png
 __pycache__
