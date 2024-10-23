@@ -1,0 +1,818 @@
+[
+    {
+        "course_key": "3632936358",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610136101",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610636101",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610736101",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3611136101",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3611336101",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "0091136102",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610136102",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610736102",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3611336102",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3623936102",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "36X0136103",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "4514536141",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610536201",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3620236201",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3633936201",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3610536202",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3620236202",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3633936202",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3624836251",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "363A236252",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3637936253",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3620136301",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3630136301",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3630436301",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3620136302",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3630136302",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3630436302",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3637336351",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3632436352",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3643436353",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3624536354",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3633836355",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3636536356",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3635836357",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3637736359",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3633036360",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "363A736361",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "363A536362",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3626636363",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3646436452",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3642236453",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3642036454",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3656836551",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "4513136552",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "4516236553",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "3654536554",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    },
+    {
+        "course_key": "36X0236651",
+        "fitness": [
+            {
+                "rule": "ConflictClassroom",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            },
+            {
+                "rule": "ConflictTeacher",
+                "count": 0,
+                "weight": -10000,
+                "score": 0
+            }
+        ]
+    }
+]

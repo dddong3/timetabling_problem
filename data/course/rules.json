@@ -1,0 +1,558 @@
+[
+    {
+        "rule_type": "common_deny_time",
+        "grade": [
+            1,
+            2
+        ],
+        "deny_time": [
+            {
+                "weekday": 4,
+                "time": 1
+            }
+        ]
+    },
+    {
+        "rule_type": "common_deny_time_period",
+        "grade": [
+            1,
+            2,
+            3,
+            4
+        ],
+        "deny_time": [
+            {
+                "weekday": 5,
+                "period": 5
+            }
+        ]
+    },
+    {
+        "rule_type": "course_requirement_time",
+        "course_key": "4514536141",
+        "time": {
+            "weekday": 3,
+            "period": 40
+        }
+    },
+    {
+        "rule_type": "course_requirement_time",
+        "course_key": "363A236252",
+        "time": {
+            "weekday": 4,
+            "period": 40
+        }
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "謝育平"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "彭心怡"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "趙和昌"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "蘇民揚"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "陳游利"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "洪永常"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "王玟婷"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "黃世育"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "何祖鳳"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "李開暉"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "胡學穎"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "徐武孝"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "徐熊健"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "王豐緒"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "王培元"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "顏秀珍"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "歐占和"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "李御璽"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "魏廉臻"
+    },
+    {
+        "rule_type": "teacher_deny_time",
+        "deny_time": [
+            {
+                "weekday": 1,
+                "time": 3
+            },
+            {
+                "weekday": 2,
+                "time": 3
+            },
+            {
+                "weekday": 3,
+                "time": 3
+            },
+            {
+                "weekday": 4,
+                "time": 3
+            },
+            {
+                "weekday": 5,
+                "time": 3
+            }
+        ],
+        "teacher_name": "羅慶同"
+    }
+]

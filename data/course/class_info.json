@@ -1,137 +1,132 @@
 {
     "S106": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "1",
         "building": "S"
     },
     "CC305": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "2-1",
         "building": "C"
     },
     "S302": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "S"
     },
     "S108": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "1",
         "building": "S"
     },
     "AA203": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "A"
     },
     "EE311": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "E"
     },
     "AA603": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "A"
     },
     "CC403": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "C"
     },
     "S213": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "S"
     },
     "S102": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "1",
         "building": "S"
     },
     "CC506": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "C"
     },
     "EE702": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "E"
     },
     "S401": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "S"
     },
     "CC307": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "C"
     },
     "EE504": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "E"
     },
     "S107": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "1",
         "building": "S"
     },
     "S4031": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "S"
     },
     "S301": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "S"
     },
     "AA602": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "A"
     },
     "S515": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "S"
     },
     "S513": {
-        "size": null,
-        "type": null,
+        "size": 60,
+        "type": "2-1",
         "building": "S"
     },
     "EE505": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "1",
         "building": "E"
     },
     "S305": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "S"
     },
-    "專研": {
-        "size": null,
-        "type": null,
-        "building": null
-    },
     "S5131": {
-        "size": null,
-        "type": null,
+        "size": 30,
+        "type": "2-2",
         "building": "S"
     },
     "S311": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "S"
     },
     "CC702": {
-        "size": null,
-        "type": null,
+        "size": 45,
+        "type": "2-1",
         "building": "C"
     }
 }

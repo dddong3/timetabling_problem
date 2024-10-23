@@ -1,5 +1,23 @@
 [
     {
+        "course_id": "36329",
+        "course_name": "創新創意專案開發",
+        "course_type": "選修",
+        "class_id": "36358",
+        "session_length": 3,
+        "teacher_list": [
+            "陳柏年",
+            "林怡先",
+            "李開暉"
+        ],
+        "week": " 2 ",
+        "session": "40",
+        "classroom": "S102",
+        "course_key": "3632936358",
+        "class_size": 60,
+        "class_type": "1"
+    },
+    {
         "course_id": "36101",
         "course_name": "程式設計一",
         "course_type": "必修",
@@ -11,7 +29,9 @@
         "week": " 3 ",
         "session": "05",
         "classroom": "S302",
-        "course_key": "3610136101"
+        "course_key": "3610136101",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36101",
@@ -25,7 +45,9 @@
         "week": " 2 ",
         "session": "06",
         "classroom": "S302",
-        "course_key": "3610136101"
+        "course_key": "3610136101",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36106",
@@ -39,7 +61,9 @@
         "week": " 5 ",
         "session": "02",
         "classroom": "S108",
-        "course_key": "3610636101"
+        "course_key": "3610636101",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36107",
@@ -53,7 +77,9 @@
         "week": " 2 ",
         "session": "02",
         "classroom": "S106",
-        "course_key": "3610736101"
+        "course_key": "3610736101",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36111",
@@ -67,7 +93,9 @@
         "week": " 5 ",
         "session": "06",
         "classroom": "AA203",
-        "course_key": "3611136101"
+        "course_key": "3611136101",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36113",
@@ -81,7 +109,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "EE311",
-        "course_key": "3611336101"
+        "course_key": "3611336101",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36113",
@@ -95,7 +125,9 @@
         "week": " 2 ",
         "session": "01",
         "classroom": "EE311",
-        "course_key": "3611336101"
+        "course_key": "3611336101",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "00911",
@@ -109,7 +141,9 @@
         "week": " 1 ",
         "session": "05",
         "classroom": "S302",
-        "course_key": "0091136102"
+        "course_key": "0091136102",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36101",
@@ -123,7 +157,9 @@
         "week": " 3 ",
         "session": "05",
         "classroom": "AA603",
-        "course_key": "3610136102"
+        "course_key": "3610136102",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36101",
@@ -137,7 +173,9 @@
         "week": " 5 ",
         "session": "06",
         "classroom": "AA603",
-        "course_key": "3610136102"
+        "course_key": "3610136102",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36107",
@@ -151,7 +189,9 @@
         "week": " 2 ",
         "session": "06",
         "classroom": "S106",
-        "course_key": "3610736102"
+        "course_key": "3610736102",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36113",
@@ -165,7 +205,9 @@
         "week": " 2 ",
         "session": "02",
         "classroom": "S108",
-        "course_key": "3611336102"
+        "course_key": "3611336102",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36113",
@@ -179,7 +221,9 @@
         "week": " 4 ",
         "session": "02",
         "classroom": "S108",
-        "course_key": "3611336102"
+        "course_key": "3611336102",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36239",
@@ -193,7 +237,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "S102",
-        "course_key": "3623936102"
+        "course_key": "3623936102",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36X01",
@@ -207,7 +253,9 @@
         "week": " 3 ",
         "session": "06",
         "classroom": "EE702",
-        "course_key": "36X0136103"
+        "course_key": "36X0136103",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "45145",
@@ -221,7 +269,9 @@
         "week": " 4 ",
         "session": "09",
         "classroom": "S302",
-        "course_key": "4514536141"
+        "course_key": "4514536141",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36105",
@@ -235,7 +285,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "EE504",
-        "course_key": "3610536201"
+        "course_key": "3610536201",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36202",
@@ -249,7 +301,9 @@
         "week": " 3 ",
         "session": "05",
         "classroom": "S102",
-        "course_key": "3620236201"
+        "course_key": "3620236201",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36339",
@@ -263,7 +317,9 @@
         "week": " 4 ",
         "session": "06",
         "classroom": "S302",
-        "course_key": "3633936201"
+        "course_key": "3633936201",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36105",
@@ -277,7 +333,9 @@
         "week": " 1 ",
         "session": "05",
         "classroom": "S102",
-        "course_key": "3610536202"
+        "course_key": "3610536202",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36202",
@@ -291,7 +349,9 @@
         "week": " 4 ",
         "session": "06",
         "classroom": "S107",
-        "course_key": "3620236202"
+        "course_key": "3620236202",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36339",
@@ -305,7 +365,9 @@
         "week": " 4 ",
         "session": "02",
         "classroom": "S302",
-        "course_key": "3633936202"
+        "course_key": "3633936202",
+        "class_size": 60,
+        "class_type": "2-1"
     },
     {
         "course_id": "36248",
@@ -319,7 +381,9 @@
         "week": " 1 ",
         "session": "02",
         "classroom": "S301",
-        "course_key": "3624836251"
+        "course_key": "3624836251",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "363A2",
@@ -333,7 +397,9 @@
         "week": " 3 ",
         "session": "09",
         "classroom": "S302",
-        "course_key": "363A236252"
+        "course_key": "363A236252",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36379",
@@ -347,7 +413,9 @@
         "week": " 5 ",
         "session": "07",
         "classroom": "S102",
-        "course_key": "3637936253"
+        "course_key": "3637936253",
+        "class_size": 45,
+        "class_type": "1"
     },
     {
         "course_id": "36201",
@@ -361,7 +429,9 @@
         "week": " 1 ",
         "session": "06",
         "classroom": "S515",
-        "course_key": "3620136301"
+        "course_key": "3620136301",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36301",
@@ -375,7 +445,9 @@
         "week": " 4 ",
         "session": "05",
         "classroom": "AA602",
-        "course_key": "3630136301"
+        "course_key": "3630136301",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36304",
@@ -389,7 +461,9 @@
         "week": " 5 ",
         "session": "07",
         "classroom": "S107",
-        "course_key": "3630436301"
+        "course_key": "3630436301",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36201",
@@ -403,7 +477,9 @@
         "week": " 4 ",
         "session": "05",
         "classroom": "S102",
-        "course_key": "3620136302"
+        "course_key": "3620136302",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36301",
@@ -412,13 +488,14 @@
         "class_id": "36302",
         "session_length": 3,
         "teacher_list": [
-            "王立天",
             "王培元"
         ],
         "week": " 4 ",
         "session": "02",
         "classroom": "S102",
-        "course_key": "3630136302"
+        "course_key": "3630136302",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36304",
@@ -432,7 +509,9 @@
         "week": " 1 ",
         "session": "05",
         "classroom": "S107",
-        "course_key": "3630436302"
+        "course_key": "3630436302",
+        "class_size": 60,
+        "class_type": "1"
     },
     {
         "course_id": "36373",
@@ -446,7 +525,9 @@
         "week": " 1 ",
         "session": "02",
         "classroom": "S513",
-        "course_key": "3637336351"
+        "course_key": "3637336351",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36324",
@@ -460,7 +541,9 @@
         "week": " 1 ",
         "session": "02",
         "classroom": "S302",
-        "course_key": "3632436352"
+        "course_key": "3632436352",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36434",
@@ -474,7 +557,9 @@
         "week": " 2 ",
         "session": "02",
         "classroom": "S302",
-        "course_key": "3643436353"
+        "course_key": "3643436353",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36245",
@@ -488,7 +573,9 @@
         "week": " 2 ",
         "session": "02",
         "classroom": "S513",
-        "course_key": "3624536354"
+        "course_key": "3624536354",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36338",
@@ -502,7 +589,9 @@
         "week": " 2 ",
         "session": "05",
         "classroom": "EE505",
-        "course_key": "3633836355"
+        "course_key": "3633836355",
+        "class_size": 30,
+        "class_type": "2-0"
     },
     {
         "course_id": "36365",
@@ -516,7 +605,9 @@
         "week": " 2 ",
         "session": "05",
         "classroom": "S513",
-        "course_key": "3636536356"
+        "course_key": "3636536356",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36358",
@@ -530,23 +621,9 @@
         "week": " 2 ",
         "session": "09",
         "classroom": "S302",
-        "course_key": "3635836357"
-    },
-    {
-        "course_id": "36329",
-        "course_name": "創新創意專案開發",
-        "course_type": "選修",
-        "class_id": "36358",
-        "session_length": 3,
-        "teacher_list": [
-            "林怡先",
-            "陳柏年",
-            "李開暉"
-        ],
-        "week": " 2 ",
-        "session": "40",
-        "classroom": "S102",
-        "course_key": "3632936358"
+        "course_key": "3635836357",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "36377",
@@ -560,7 +637,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "EE505",
-        "course_key": "3637736359"
+        "course_key": "3637736359",
+        "class_size": 45,
+        "class_type": "1"
     },
     {
         "course_id": "36330",
@@ -574,7 +653,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "S302",
-        "course_key": "3633036360"
+        "course_key": "3633036360",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "363A7",
@@ -588,7 +669,9 @@
         "week": " 3 ",
         "session": "09",
         "classroom": "S305",
-        "course_key": "363A736361"
+        "course_key": "363A736361",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "363A5",
@@ -602,7 +685,9 @@
         "week": " 5 ",
         "session": "02",
         "classroom": "S302",
-        "course_key": "363A536362"
+        "course_key": "363A536362",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "36266",
@@ -616,7 +701,9 @@
         "week": " 5 ",
         "session": "02",
         "classroom": "S301",
-        "course_key": "3626636363"
+        "course_key": "3626636363",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "36464",
@@ -630,7 +717,9 @@
         "week": " 3 ",
         "session": "40",
         "classroom": "S301",
-        "course_key": "3646436452"
+        "course_key": "3646436452",
+        "class_size": 45,
+        "class_type": "2-0"
     },
     {
         "course_id": "36422",
@@ -644,7 +733,9 @@
         "week": " 2 ",
         "session": "09",
         "classroom": "S5131",
-        "course_key": "3642236453"
+        "course_key": "3642236453",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36420",
@@ -658,7 +749,9 @@
         "week": " 5 ",
         "session": "40",
         "classroom": "S302",
-        "course_key": "3642036454"
+        "course_key": "3642036454",
+        "class_size": 45,
+        "class_type": "2-1"
     },
     {
         "course_id": "36568",
@@ -672,7 +765,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "S311",
-        "course_key": "3656836551"
+        "course_key": "3656836551",
+        "class_size": 45,
+        "class_type": "1"
     },
     {
         "course_id": "45131",
@@ -686,7 +781,9 @@
         "week": " 3 ",
         "session": "06",
         "classroom": "S401",
-        "course_key": "4513136552"
+        "course_key": "4513136552",
+        "class_size": 45,
+        "class_type": "1"
     },
     {
         "course_id": "45162",
@@ -700,7 +797,10 @@
         "week": " 4 ",
         "session": "02",
         "classroom": "S513",
-        "course_key": "4516236553"
+        "course_key": "4516236553",
+        "class_size": 45,
+        "class_type": "2-1",
+        "grade": "3"
     },
     {
         "course_id": "36545",
@@ -714,7 +814,10 @@
         "week": " 2 ",
         "session": "05",
         "classroom": "S401",
-        "course_key": "3654536554"
+        "course_key": "3654536554",
+        "class_size": 45,
+        "class_type": "2-1",
+        "grade": "3"
     },
     {
         "course_id": "36X02",
@@ -728,6 +831,9 @@
         "week": " 3 ",
         "session": "02",
         "classroom": "CC702",
-        "course_key": "36X0236651"
+        "course_key": "36X0236651",
+        "class_size": 45,
+        "class_type": "1",
+        "grade": "1"
     }
 ]
