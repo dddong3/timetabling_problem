@@ -7,8 +7,11 @@ from src.algorithm.models.curriculum import Curriculum, SchoolCurriculum
 
 class SchoolCurriculumService:
     instance = None
+    initialized = False
 
     def __init__(self):
+        if self.initialized:
+            return
         self.curriculum_repository = "data/course/course_washed.json"
         self.teacher_id_table = {}
         self.id_teacher_table = {}
@@ -18,8 +21,10 @@ class SchoolCurriculumService:
         self._course_keys = self.all_course_keys()
 
     def __new__(cls, *args, **kwargs):
-        if not cls.instance:
+        if cls.instance is None:
             cls.instance = super().__new__(cls)
+        else:
+            cls.instance.initialized = True
         return cls.instance
 
     def get_school_curriculums(self) -> list[SchoolCurriculum]:
@@ -33,9 +38,12 @@ class SchoolCurriculumService:
                 class_id=curriculum["class_id"],
                 session=curriculum["session"],
                 session_length=curriculum["session_length"],
-                teacher_list=curriculum["teacher_list"],
+                teacher_list=[x.strip() for x in sorted(curriculum["teacher_list"])],
                 week=int(curriculum["week"]),
                 classroom=curriculum["classroom"],
+                class_size=curriculum["class_size"],
+                class_type=curriculum["class_type"],
+                grade=curriculum.get("grade") if curriculum.get("grade") else curriculum.get("class_id")[-3],
             )
             for curriculum in data
         ]
@@ -53,11 +61,15 @@ class SchoolCurriculumService:
                 teachers=teachers,
                 course_key=course_key,
                 course_type=school_curriculum.course_type,
-                grade=school_curriculum.class_id[-3],
+                course_class=school_curriculum.class_id,
+                # grade=school_curriculum.class_id[-3] if school_curriculum.grade,
+                grade=str(school_curriculum.grade),
                 session=school_curriculum.session,
                 session_length=school_curriculum.session_length,
                 week=int(school_curriculum.week),
                 classroom=classroom,
+                class_size=school_curriculum.class_size,
+                class_type=school_curriculum.class_type,
             )
             curriculums.append(curriculum)
         return curriculums
@@ -75,18 +87,45 @@ class SchoolCurriculumService:
                 for curriculum in self.school_curriculums
             ]
         )
-        # TODO: Add classroom size and type
+
+        with open("data/course/class_info.json", "r") as f:
+            class_data = json.load(f)
+
         classrooms = [
             Classroom(id=classroom, size=None, type=None) for classroom in classrooms
         ]
+        for classroom in classrooms:
+            id = classroom.id
+            if id not in class_data:
+                raise NotImplementedError(f"Classroom {id} not found in class_info.json")
+            classroom.size = class_data[id]["size"]
+            classroom.type = class_data[id]["type"]
         return classrooms
 
     def get_teacher_by_id(self, teacher_id: int) -> list[str]:
-        return self.id_teacher_table[teacher_id].split(", ")
+        # return self.id_teacher_table[teacher_id].split(",")
+        return self.id_teacher_table[teacher_id]
+    
+    def check_teacher(self, teacher_id1: int, teacher_id2: int) -> bool:
+        rst1 = self.id_teacher_table[teacher_id1]
+        rst2 = self.id_teacher_table[teacher_id2]
+        return any([teacher in rst2 for teacher in rst1])
+    
+    def check_teacher_by_name_id(self, teacher_name: str, teacher_id: int) -> bool:
+        rst1 = teacher_name.split(",")
+        rst2 = self.id_teacher_table[teacher_id]
+        return any([teacher in rst2 for teacher in rst1])
 
     def get_teacher_id(self, teacher_name: str | list[str]) -> int:
+        sorted_teacher_name = teacher_name
         if isinstance(teacher_name, list):
-            teacher_name = ", ".join(teacher_name)
+            sorted_teacher_name = sorted(teacher_name)
+            teacher_name = ",".join(sorted_teacher_name)
+        else:
+            teacher_name = teacher_name.split(",")
+            teacher_name = [name.strip() for name in teacher_name]
+            teacher_name = ",".join(teacher_name)
+            sorted_teacher_name = sorted(teacher_name.split(","))
         if teacher_name not in self.teacher_id_table:
             teacher_id = len(self.teacher_id_table)
             self.teacher_id_table[teacher_name] = teacher_id
@@ -96,13 +135,15 @@ class SchoolCurriculumService:
     def all_teachers(self) -> list[int]:
         teachers = []
         for curriculum in self.school_curriculums:
-            teacher_name = ", ".join(curriculum.teacher_list)
+            teacher_name = ",".join(curriculum.teacher_list)
             if teacher_name in self.teacher_id_table:
                 teachers.append(self.teacher_id_table[teacher_name])
             else:
                 teacher_id = len(self.teacher_id_table)
                 self.teacher_id_table[teacher_name] = teacher_id
-                self.id_teacher_table[teacher_id] = teacher_name
+                teacher_name_list = teacher_name.split(",")
+                teacher_name_list = [name.strip() for name in teacher_name_list]
+                self.id_teacher_table[teacher_id] = sorted(teacher_name_list)
                 teachers.append(teacher_id)
         return teachers
 

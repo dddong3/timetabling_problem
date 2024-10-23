@@ -4,8 +4,29 @@ from ..genetic_algo.mutate import Mutate
 from ..genetic_algo.mutate import StrategyRegistry as MutateStrategyRegistry
 from ..genetic_algo.parameter import GeneticAlgoParameter
 from .chromosome import Chromosome
+from ..services.custom_rule import CustomRuleService
 
 SESSION_TABLE: list[int] = [1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 40, 50, 60, 70]
+
+custom_rule_service = CustomRuleService()
+
+def check_classroom_with_curriculum(curriculum_class_size: int, curriculum_class_type: str, classroom: "Classroom") -> bool:
+    if classroom.size < curriculum_class_size:
+        return False
+    
+    if curriculum_class_type[0] == "0":
+        return True
+    
+    if curriculum_class_type == "1" and classroom.type == "1":
+        return True
+    
+    if curriculum_class_type[0] == "2" and classroom.type[0] == "2":
+        if curriculum_class_type[2] == "0":
+            return True
+        return curriculum_class_type[2] == classroom.type[2]
+    
+    # raise ValueError(f"Invalid class size {curriculum_class_size} or class type {curriculum_class_type} or classroom {classroom.size} {classroom.type}")
+    return False
 
 @MutateStrategyRegistry.register("swap_small")
 class SwapMutate(Mutate):
@@ -54,9 +75,12 @@ import random
 from src.algorithm.services.school_curriculum import SchoolCurriculumService
 
 school_curriculum_service = SchoolCurriculumService()
-all_classrooms = school_curriculum_service.classrooms #notice Classroom  can't be change
+all_classrooms = list(set(school_curriculum_service.classrooms)) #notice Classroom  can't be change
 all_session = [f'{week}/{session}' for week in range(1, 6) for session in SESSION_TABLE]
-
+all_session = list(filter(lambda x: int(x.split('/')[1]) != 20, all_session))
+all_session = sorted(all_session, key=lambda x: SESSION_TABLE.index(int(x.split('/')[1])))
+print(all_session)
+RESOLVE_CONFLICT = False
 @MutateStrategyRegistry.register("resolve_conflict")
 class ResolveConflictMutate(Mutate):
     def __init__(self, parameters: GeneticAlgoParameter, data: dict = None):
@@ -74,32 +98,77 @@ class ResolveConflictMutate(Mutate):
         conflict_record.sort(key=lambda x: x["weight"])
         if len(conflict_record) == 0:
             return chromosome
-        # conflict_record = sorted(conflict_record, key=lambda x: x["weight"])
-        conflict_record = list(filter(lambda x: x["weight"] == conflict_record[0]["weight"], conflict_record))
 
-        conflict = random.choice(conflict_record)
+        # conflict_record = list(filter(lambda x: x["weight"] == conflict_record[0]["weight"], conflict_record))
+        conflicts = conflict_record 
 
-        # print(f"Conflict: {conflict}")
 
-        match conflict["rule"]:
-            case "ConflictClassroom":
-                chromosome = self.solve_class_conflict(chromosome, conflict)
+        for conflict in conflicts:
+            skip = False
+            if custom_rule_service.check_course_key_in_rule(conflict["course_key"]):
+                skip = True
+            match conflict["rule"]:
+                case "ConflictClassroom":
+                    chromosome = self.solve_class_conflict(chromosome, conflict)
 
-            case "ConflictTeacher":
-                chromosome = self.solve_teacher_conflict(chromosome, conflict)
+                case "ConflictTeacher":
+                    if skip:
+                        continue
+                    chromosome = self.solve_teacher_conflict(chromosome, conflict)
 
-            case "over_70":
-                chromosome = self.solve_over_70(chromosome, conflict)
-            
-            case "no_20":
-                chromosome = self.solve_over_70(chromosome, conflict)
+                case "over_70":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
 
-            case "conflict_grade_course":
-                chromosome = self.solve_over_70(chromosome, conflict)
+                case "over_09":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+                
+                case "no_20":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
 
-            case _:
-                pass
-                # raise NotImplementedError(f"Conflict rule {conflict['rule']} is not implemented")
+                case "ConflictGradeCourse":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
+                case "not_on_02_or_05":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
+                case "no_day":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
+                case "bi_not_in_night":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
+                case "custom_rule":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
+                case _:
+                    # if conflict["rule"][0] != 'b':
+                    raise NotImplementedError(f"Conflict rule {conflict['rule']} is not implemented")
+                    # raise NotImplementedError(f"Conflict rule {conflict['rule']} is not implemented")
+                    # pass
+
+        # from ..services.fitness.strategies.conflict_classroom import ConflictClass
+
+        # conflict_class = ConflictClass()
+
+        # result = conflict_class.evaluate(chromosome.curriculums)
+
+        # assert result == 0, f"Conflict not resolved: {result}"
             
         return chromosome
 
@@ -123,11 +192,11 @@ class ResolveConflictMutate(Mutate):
     def solve_class_conflict(self, chromosome: Chromosome, conflict: dict):
         course_key = conflict["course_key"]
         curriculum = chromosome.find_by_course_key(course_key)
-        classroom = curriculum.classroom
+        # classroom = curriculum.classroom
         teacher = curriculum.teachers
+
         chromosome_snapshot = chromosome.get_snapshot()
-        chromosome_view = chromosome_snapshot.get_view()
-        
+        chromosome_view = chromosome_snapshot.get_view()    
         # for week in range(1, 6):
         #     for session in range(len(SESSION_TABLE) - curriculum.session_length + 1):
         #         if self.check_conflict(chromosome_view, classroom, teacher, week, session, curriculum.session_length):
@@ -138,28 +207,54 @@ class ResolveConflictMutate(Mutate):
 
         random.shuffle(all_classrooms)
 
-        for classroom in all_classrooms:
-                if self.check_conflict(chromosome_view, classroom, teacher, curriculum.week, SESSION_TABLE.index(curriculum.session), curriculum.session_length, curriculum.grade, curriculum.course_type):
-                    continue
-                chromosome.set_classroom(course_key, classroom)
-                return chromosome
+        # week, session = curriculum.week, curriculum.session
+
+        # for classroom in all_classrooms:
+        #         if self.check_conflict(chromosome_view, classroom, teacher, int(week), int(session), curriculum.session_length, curriculum.grade, curriculum.course_type):
+        #             continue
+        #         chromosome.set_classroom(course_key, classroom)
+        #         return chromosome
         # print(f"Cannot resolve conflict: {course_key}")
 
-        random.shuffle(all_session)
+        # random.shuffle(all_session)
 
         for session in all_session:
             week, session = session.split('/')
-            if self.check_conflict(chromosome_view, classroom, teacher, int(week), SESSION_TABLE.index(int(session)), curriculum.session_length, curriculum.grade, curriculum.course_type):
-                continue
-            chromosome.set_time(course_key, f'{week}/{session}')
-            return chromosome
+            for classroom in all_classrooms:
+                # classroom = random.choice(all_classrooms)
+                if not self.check_conflict(chromosome_view, classroom, teacher, int(week), int(session), curriculum):#.session_length, curriculum.grade, curriculum.course_type):
+                    chromosome.set_time(course_key, f'{week}/{session}')
+                    chromosome.set_classroom(course_key, classroom)
+                    return chromosome
+        
+        # for target_curriculum in chromosome.curriculums:
+        #     if target_curriculum.course_key == course_key:
+        #         continue
 
+        #     if self.check_swap_conflict(chromosome, curriculum, target_curriculum):
+        #         continue
+
+        cur = random.choice(chromosome.curriculums)
+
+        tmp_classroom = curriculum.classroom
+        tmp_week = curriculum.week
+        tmp_session = curriculum.session
+
+        chromosome.set_classroom(course_key, cur.classroom)
+        chromosome.set_time(course_key, f'{cur.week}/{cur.session}')
+
+        chromosome.set_classroom(cur.course_key, tmp_classroom)
+        chromosome.set_time(cur.course_key, f'{tmp_week}/{tmp_session}')
+
+
+        # print(f"Cannot resolve classroom conflict: {course_key}")
         return chromosome
+        # raise NotImplementedError(f"Cannot resolve conflict: {course_key}")
     
     def solve_teacher_conflict(self, chromosome: Chromosome, conflict: dict):
         course_key = conflict["course_key"]
         curriculum = chromosome.find_by_course_key(course_key)
-        classroom = curriculum.classroom
+        # classroom = curriculum.classroom
         teacher = curriculum.teachers
         chromosome_snapshot = chromosome.get_snapshot()
         chromosome_view = chromosome_snapshot.get_view()
@@ -174,22 +269,26 @@ class ResolveConflictMutate(Mutate):
         #         # print(f"Resolve conflict: {course_key} to {week}/{SESSION_TABLE[session]}")
         #         return chromosome
 
-        random.shuffle(all_session)
+        # random.shuffle(all_session)
 
         for session in all_session:
             week, session = session.split('/')
-            if self.check_conflict(chromosome_view, classroom, teacher, int(week), SESSION_TABLE.index(int(session)), curriculum.session_length, curriculum.grade, curriculum.course_type):
-                continue
-            chromosome.set_time(course_key, f'{week}/{session}')
-            return chromosome
+            for classroom in all_classrooms:
+                if self.check_conflict(chromosome_view, classroom, teacher, int(week), int(session), curriculum):#.session_length, curriculum.grade, curriculum.course_type):
+                    continue
+                chromosome.set_time(course_key, f'{week}/{session}')
+                chromosome.set_classroom(course_key, classroom)
+                return chromosome
+
             
-        # print(f"Cannot resolve conflict: {course_key}")
+        # print(f"Cannot resolve teacher conflict: {course_key}")
         return chromosome
     
     def solve_over_70(self, chromosome: Chromosome, conflict: dict):
         course_key = conflict["course_key"]
         curriculum = chromosome.find_by_course_key(course_key)
-        classroom = curriculum.classroom
+        # classroom = curriculum.classroom
+        
         teacher = curriculum.teachers
         chromosome_snapshot = chromosome.get_snapshot()
         chromosome_view = chromosome_snapshot.get_view()
@@ -204,40 +303,115 @@ class ResolveConflictMutate(Mutate):
         #         # print(f"Resolve conflict: {course_key} to {week}/{SESSION_TABLE[session]}")
         #         return chromosome
 
-        random.shuffle(all_session)
+        # random.shuffle(all_session)
 
         for session in all_session:
             week, session = session.split('/')
-            if self.check_conflict(chromosome_view, classroom, teacher, int(week), SESSION_TABLE.index(int(session)), curriculum.session_length, curriculum.grade, curriculum.course_type):
-                continue
-            chromosome.set_time(course_key, f'{week}/{session}')
-            return chromosome
+            # if curriculum.session_length == 3 and (session != 2 or session != 5 or
+            # classroom = random.choice(all_classrooms)
+            for classroom in all_classrooms:
+                if self.check_conflict(chromosome_view, classroom, teacher, int(week), int(session), curriculum):
+                    continue
+                chromosome.set_time(course_key, f'{week}/{session}')
+                chromosome.set_classroom(course_key, classroom)
+                return chromosome
             
+
+
         # print(f"Cannot resolve conflict: {course_key}")
         return chromosome
     
-    def check_conflict(self, chromosome_view, classroom, teacher, week, session, session_length, grade, course_type):
-        for s in range(session_length):
-            if session + s >= len(SESSION_TABLE):
-                return True
-            if SESSION_TABLE[session + s] == 20:
-                return True
-            class_session = SESSION_TABLE[session + s]
-            # class_session = SESSION_TABLE[(session + s) % len(SESSION_TABLE)]
-            # print(f'Check conflict: {week}/{class_session} {classroom}')
-            snapshot_classroom = chromosome_view.filter_time(f'{week}/{class_session}').get_classroom()
-            snapshot_teacher = chromosome_view.filter_time(f'{week}/{class_session}').get_teacher()
-            # snapshot_grade = chromosome_view.filter_time(f'{week}/{class_session}').get_grade()
-            snapshot_course_type = chromosome_view.filter_time(f'{week}/{class_session}').get_course_type(grade)
+    def check_conflict(self, chromosome_view, classroom, teacher, week, session, curriculum): #session_length, grade, course_type):
+        session_idx = SESSION_TABLE.index(session)
+        session_length = curriculum.session_length
+        grade = curriculum.grade
+        course_type = curriculum.course_type
+        course_class = curriculum.course_class
 
-            # if len(chromosome_view.filter_time(f'{week}/{class_session}').get_classroom()) > 0:
-            # print(f"Check conflict: {week}/{class_session} {snapshot_classroom}")
-            # print(f"Check conflict: {week}/{class_session} {classroom}")
-            # print(f"Check conflict: {week}/{class_session} {classroom in snapshot_classroom}")
-            if classroom in snapshot_classroom or teacher in snapshot_teacher or (snapshot_course_type.count("必修") > 0 or (course_type == "必修" and len(snapshot_course_type) > 0)):
+        # if session_idx <= SESSION_TABLE.index(20) <= session_idx + session_length:
+        #     return True
+
+        if session_length == 1 and session_idx >= SESSION_TABLE.index(20):
+            return True
+
+        if session_length == 3 and not (session == 2 or session == 5 or session == 40):
+            return True
+        
+        if session_length == 2 and not (session == 1 or session == 3 or session == 5 or session == 7):
+            return True
+        
+        if not check_classroom_with_curriculum(curriculum.class_size, curriculum.class_type, classroom):
+            return True
+        
+        if curriculum.course_type == "必修" and session_idx >= SESSION_TABLE.index(40):
+            return True
+
+        for s in range(session_length):
+            if session_idx + s >= len(SESSION_TABLE):
                 return True
+
+            class_session = SESSION_TABLE[session_idx + s]
+
+            if class_session == 20:
+                return True
+            
+            chromosome_view = chromosome_view.filter_time(f'{week}/{class_session}')
+
+            if chromosome_view.check_conflict_classroom(week, class_session, classroom):
+                return True
+            
+            if chromosome_view.check_conflict_teacher(week, class_session, teacher):
+                return True
+            
+            if chromosome_view.check_conflict_course_type(week, class_session, course_class, course_type, grade):
+                return True
+
         return False
-    
+
+    # def check_swap_conflict(self, chromosome, curriculum, target_curriculum):
+    #     session_idx = SESSION_TABLE.index(session)
+    #     session_length = curriculum.session_length
+    #     grade = curriculum.grade
+    #     course_type = curriculum.course_type
+    #     # cur_time 
+    #     target_curriculum = chromosome_view.find_by_time_classroom(week, session, classroom)
+
+    #     if target_curriculum is None:
+    #         return True
+
+    #     # if session_idx <= SESSION_TABLE.index(20) <= session_idx + session_length:
+    #     #     return True
+
+    #     if session_length == 3 and not (session == 2 or session == 5 or session == 40):
+    #         return True
+        
+    #     if not check_classroom_with_curriculum(curriculum.class_size, curriculum.class_type, classroom):
+    #         return True
+        
+    #     if curriculum.course_type == "必修" and session_idx >= SESSION_TABLE.index(40):
+    #         return True
+
+    #     for s in range(session_length):
+    #         if session_idx + s >= len(SESSION_TABLE):
+    #             return True
+
+    #         class_session = SESSION_TABLE[session_idx + s]
+
+    #         if class_session == 20:
+    #             return True
+            
+    #         chromosome_view = chromosome_view.filter_time(f'{week}/{class_session}')
+
+    #         if chromosome_view.check_conflict_classroom(week, class_session, classroom):
+    #             return True
+            
+    #         if chromosome_view.check_conflict_teacher(week, class_session, teacher):
+    #             return True
+            
+    #         if chromosome_view.check_conflict_course_type(week, class_session, grade, course_type):
+    #             return True
+
+    #     return False
 
 """
 now  course_list 

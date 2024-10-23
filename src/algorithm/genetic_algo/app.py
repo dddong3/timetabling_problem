@@ -65,6 +65,8 @@ class GeneticAlgoApp:
 
             best_record.append(self.best_chromosome.fitness)
             print(f"Generation: {_}, Best Fitness: {self.best_chromosome.fitness}")
+            if self.best_chromosome.fitness == 0:
+                break
 
         plt.plot(best_record)
         plt.savefig("data/results/fitness.png")
@@ -73,8 +75,12 @@ class GeneticAlgoApp:
 
     def  run_app(self) -> List[Chromosome]:
         with multiprocessing.Pool() as pool:
-            results = pool.map(self.run_ga, range(self.params.loops))
+            # results = pool.map(self.run_ga, range(self.params.loops))
+            # results = pool.map(self.run_ga, [self.params.loops])
+        # return results
         # return [self.run_ga() for _ in range(self.params.loops)]
+            results = [pool.apply_async(self.run_ga) for _ in range(self.params.loops)]
+            results = [result.get() for result in results]
         return results
     
     def evaluate_fitness(self, chromosome: Chromosome) -> Chromosome:

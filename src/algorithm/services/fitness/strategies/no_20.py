@@ -2,7 +2,7 @@ from ..abstract import FitnessBase
 from ..app import FitnessRegistry
 
 SESSION_TABLE: list[int] = [1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 40, 50, 60, 70]
-@FitnessRegistry.register("no_20", weight=-1000)
+@FitnessRegistry.register("no_20", weight=-10000)
 class No20(FitnessBase):
     name = "no_20"
     show_name = "在 20 節"

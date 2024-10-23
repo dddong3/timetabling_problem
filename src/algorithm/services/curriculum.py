@@ -65,6 +65,8 @@ class CurriculumService:
                     week=week,
                     session=session,
                     classroom=classroom,
+                    class_size=curriculum.class_size,
+                    class_type=curriculum.class_type,
                 )
             )
 

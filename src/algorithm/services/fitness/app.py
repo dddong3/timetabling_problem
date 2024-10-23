@@ -5,13 +5,25 @@ import json
 class FitnessRegistry:
     strategies = {}
     # weights = {}
+    skip_list = [
+        # "ConflictGradeCourse",
+        # "over_09",
+        # "no_20",
+        # "ConflictTeacher",
+        # "over_70",
+        # "ConflictClassroom",
+        # "exceed_time"
+    ]
 
     @classmethod
     def register(cls, strategy, weight):
         def decorator(subclass):
+            if strategy in cls.skip_list:
+                return subclass
             cls.strategies[strategy] = subclass
             # cls.weights[strategy] = weight
             subclass.weight = weight
+            print(f"Register {subclass} to {strategy}")
             return subclass
         
         return decorator

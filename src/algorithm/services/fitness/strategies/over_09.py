@@ -3,7 +3,7 @@ from ..app import FitnessRegistry
 
 SESSION_TABLE: list[int] = [1, 2, 3, 4, 20, 5, 6, 7, 8, 9, 40, 50, 60, 70]
 
-@FitnessRegistry.register("over_09", weight=-10)
+@FitnessRegistry.register("over_09", weight=-1000)
 class Over07(FitnessBase):
     name = "over_09"
     show_name = "超過 09 節"

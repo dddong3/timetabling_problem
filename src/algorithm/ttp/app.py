@@ -16,13 +16,13 @@ fitness_service = FitnessService()
 
 ga_params = GeneticAlgoParameter(
     population_size=100,
-    mutation_rate=0.5,
-    crossover_rate=0.7,
-    crossover_strategy="swap",
+    mutation_rate=1,
+    crossover_rate=0.3,
+    crossover_strategy="swap_big",#"swap_big",
     mutate_strategy="resolve_conflict",
     select_strategy="roulette",
     max_generation=100,
-    loops=5,
+    loops=10,
 )
 
 
