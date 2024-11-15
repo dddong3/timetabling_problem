@@ -126,12 +126,12 @@ class ChromosomeSerivce:
 
     def run_algorithm(self, live: int, popu: int):
         result = None
-        result = run(live=live, popu=popu)
-        # try:
-        # except Exception as e:
-        #     print(e)
-        # finally:
-        self.is_running = False
+        try:
+            result = run(live=live, popu=popu)
+        except Exception as e:
+            print(e)
+        finally:
+            self.is_running = False
         # TODO: Save the result to a file
         return result
 
