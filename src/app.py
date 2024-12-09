@@ -5,7 +5,7 @@ from fastapi.responses import RedirectResponse
 
 from .routers.api_router import router_v1 as api_router
 
-app = FastAPI()
+app = FastAPI(docs_url='/api/docs')
 origins = ["*"]
 
 app.add_middleware(

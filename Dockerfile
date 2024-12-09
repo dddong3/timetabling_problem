@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye as builder
+FROM python:3.11-slim-bullseye AS builder
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ RUN poetry config virtualenvs.in-project true
 
 RUN poetry install --without dev --no-interaction --no-ansi 
 
-FROM python:3.11-slim-bullseye as app
+FROM python:3.11-slim-bullseye AS app
 
 WORKDIR /app
 
