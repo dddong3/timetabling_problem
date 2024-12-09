@@ -43,10 +43,10 @@ class ConflictTeacher(FitnessBase):
 
                 time = cls.combine_session_week(SESSION_TABLE[(session_idx + s)], curriculum.week)
 
-                if rst[curriculum.course_key].get(cls) is None:
-                    rst[curriculum.course_key][cls] = 0
 
                 if teacher_time_dict[curriculum.teachers].get(time, 0) > 0:
+                    if rst[curriculum.course_key].get(cls) is None:
+                        rst[curriculum.course_key][cls] = 0
                     rst[curriculum.course_key][cls] += 1
 
                 teacher_time_dict[curriculum.teachers][time] = 1

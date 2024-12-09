@@ -20,12 +20,13 @@ class NoDay(FitnessBase):
     
     @classmethod
     def record(cls, curriculums, rst):
-        # for curriculum in curriculums:
-            # session_idx = SESSION_TABLE.index(curriculum.session)
+        for curriculum in curriculums:
+            session_idx = SESSION_TABLE.index(curriculum.session)
 
             # if session_idx + curriculum.session_length >= SESSION_TABLE.index(40):
-            #     if rst[curriculum.course_key].get(cls) is None:
-            #         rst[curriculum.course_key][cls] = 0
+            if rst[curriculum.course_key].get(cls) is None:
+                rst[curriculum.course_key][cls] = 0    
+            rst[curriculum.course_key][cls] += session_idx
             #     rst[curriculum.course_key][cls] += 1
 
         return rst

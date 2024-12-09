@@ -43,13 +43,22 @@ class ConflictClass(FitnessBase):
 
                 time = cls.combine_session_week(SESSION_TABLE[(session_idx + s)], curriculum.week)
 
-                if rst[curriculum.course_key].get(cls) is None:
-                    rst[curriculum.course_key][cls] = 0
+                if class_time_dict[curriculum.classroom].get(time) is None:
+                    class_time_dict[curriculum.classroom][time] = []
 
-                if class_time_dict[curriculum.classroom].get(time, 0) > 0:
+                if len(class_time_dict[curriculum.classroom][time]):
+                    if rst[curriculum.course_key].get(cls) is None:
+                        rst[curriculum.course_key][cls] = 0
                     rst[curriculum.course_key][cls] += 1
 
-                class_time_dict[curriculum.classroom][time] = 1
+                class_time_dict[curriculum.classroom][time].append(curriculum)
+
+                # if class_time_dict[curriculum.classroom].get(time, 0) > 0:
+                #     if rst[curriculum.course_key].get(cls) is None:
+                #         rst[curriculum.course_key][cls] = 0
+                #     rst[curriculum.course_key][cls] += 1
+
+                # class_time_dict[curriculum.classroom][time] = 1
 
 
         return rst

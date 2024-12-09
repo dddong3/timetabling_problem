@@ -156,6 +156,14 @@ class ResolveConflictMutate(Mutate):
                         continue
                     chromosome = self.solve_over_70(chromosome, conflict)
 
+                case "on_day":
+                    continue
+
+                case "NoW5_05":
+                    if skip:
+                        continue
+                    chromosome = self.solve_over_70(chromosome, conflict)
+
                 case _:
                     # if conflict["rule"][0] != 'b':
                     raise NotImplementedError(f"Conflict rule {conflict['rule']} is not implemented")
@@ -330,6 +338,9 @@ class ResolveConflictMutate(Mutate):
 
         # if session_idx <= SESSION_TABLE.index(20) <= session_idx + session_length:
         #     return True
+
+        if week == 5 and session == 5:
+            return True
 
         if session_length == 1 and session_idx >= SESSION_TABLE.index(20):
             return True

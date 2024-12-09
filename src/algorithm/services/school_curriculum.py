@@ -94,10 +94,13 @@ class SchoolCurriculumService:
         classrooms = [
             Classroom(id=classroom, size=None, type=None) for classroom in classrooms
         ]
+
+        classrooms = list(filter(lambda x: x.id in class_data, classrooms))
+
         for classroom in classrooms:
             id = classroom.id
-            if id not in class_data:
-                raise NotImplementedError(f"Classroom {id} not found in class_info.json")
+            # if id not in class_data:
+                # raise NotImplementedError(f"Classroom {id} not found in class_info.json")
             classroom.size = class_data[id]["size"]
             classroom.type = class_data[id]["type"]
         return classrooms
@@ -166,3 +169,4 @@ class SchoolCurriculumService:
 
 # service = SchoolCurriculumService()
 # print(service.convert_to_curriculum(service.school_curriculums))
+# print(len(SchoolCurriculumService().teacher_id_table))

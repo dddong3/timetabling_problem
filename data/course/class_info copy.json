@@ -4,6 +4,11 @@
         "type": "1",
         "building": "S"
     },
+    "CC305": {
+        "size": 60,
+        "type": "2-1",
+        "building": "C"
+    },
     "S302": {
         "size": 45,
         "type": "2-1",
@@ -29,6 +34,16 @@
         "type": "1",
         "building": "A"
     },
+    "CC403": {
+        "size": 45,
+        "type": "1",
+        "building": "C"
+    },
+    "S213": {
+        "size": 45,
+        "type": "1",
+        "building": "S"
+    },
     "S102": {
         "size": 60,
         "type": "1",
@@ -39,8 +54,33 @@
         "type": "1",
         "building": "C"
     },
+    "EE702": {
+        "size": 45,
+        "type": "1",
+        "building": "E"
+    },
+    "S401": {
+        "size": 45,
+        "type": "1",
+        "building": "S"
+    },
+    "CC307": {
+        "size": 45,
+        "type": "2-1",
+        "building": "C"
+    },
+    "EE504": {
+        "size": 45,
+        "type": "1",
+        "building": "E"
+    },
     "S107": {
         "size": 60,
+        "type": "1",
+        "building": "S"
+    },
+    "S4031": {
+        "size": 45,
         "type": "1",
         "building": "S"
     },
@@ -64,6 +104,11 @@
         "type": "2-1",
         "building": "S"
     },
+    "EE505": {
+        "size": 45,
+        "type": "1",
+        "building": "E"
+    },
     "S305": {
         "size": 45,
         "type": "2-1",
@@ -78,5 +123,10 @@
         "size": 45,
         "type": "2-1",
         "building": "S"
+    },
+    "CC702": {
+        "size": 45,
+        "type": "2-1",
+        "building": "C"
     }
 }

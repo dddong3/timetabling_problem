@@ -36,15 +36,15 @@
         "weight": -500
     },
     {
-        "name": "on_day",
-        "show_name": "在早上",
-        "description": "If curriculum is on 02 or 05, then fitness will be increased by 100",
-        "weight": -100
-    },
-    {
         "name": "custom_rule",
         "show_name": "Custom Rules",
         "description": "If the same grade has the same course, the fitness will be added by 1000.",
+        "weight": -10000
+    },
+    {
+        "name": "NoW5_05",
+        "show_name": "在 20 節",
+        "description": "If curriculum is no 20, then fitness will be decreased by 100",
         "weight": -10000
     }
 ]
